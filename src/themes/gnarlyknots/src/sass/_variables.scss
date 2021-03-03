@@ -1,0 +1,60 @@
+/*-[Colors]-*/
+
+$black: #1a1a1a;
+$light-gold: #fef9eb;
+$gold: #ECD67E;
+$rich-gold: #E8B900;
+$brown: #946F4E;
+$rich-brown: #60330B;
+$light-grey: #d5d5d5;
+$grey: #707070;
+$white: #ffffff;
+
+/*-[Breakpoints]-*/
+
+$zero: 0px;
+$s5: 300px;
+$blazeit: 420px;
+$surface: 540px;
+$tablet: 768px;
+$ipad: 880px;
+$screen: 992px;
+$mac: 1090px;
+$desktop: 1280px;
+
+/*-[Classes]-*/
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 6rem 2rem;
+}
+
+.gnarly-button {
+  border: 2px solid $gold;
+  color: white;
+  padding: 0.85rem 2rem 0.45rem;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  background-color: rgba($gold, 0.5);
+  border-radius: 50px;
+  position: relative;
+  font-size: 15px;
+  transition: background 300ms ease, color 300ms ease;
+
+  &::before {
+    content:url('../gnarlyknots/images/orange-pret.svg');
+    height: auto;
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &:hover {
+    background-color: rgba($gold, 1);
+    color: black;
+  }
+}

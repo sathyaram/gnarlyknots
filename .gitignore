@@ -1,2 +1,7 @@
 /src/node_modules
 /build
+.DS_Store
+/.DS_Store
+src/themes/twentynineteen/
+src/themes/twentytwenty/
+src/themes/twentytwentyone/
