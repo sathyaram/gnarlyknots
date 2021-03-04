@@ -23,39 +23,29 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'my-site' ); ?></a>
-
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$my_site_description = get_bloginfo( 'description', 'display' );
-			if ( $my_site_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $my_site_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'my-site' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-
+	<a class="skip-link screen-reader-text" href="#content">
+		<?php esc_html_e( 'Skip to content', 'my-site' ); ?>
+	</a>
+	<header role="banner">
+		<ul class="main-menu">
+			<li><a href="/">Menu</a></li>
+			<li><a href="/">Media</a></li>
+			<li><a href="/">About</a></li>
+			<li><a href="/">Contact</a></li>
+		</ul>
+		<div class="logo">
+			<a href="/">Gnarly Knots</a>
+		</div>
+		<nav class="social-media" role="navigation">
+        <a target="_blank" rel="noopener noreferrer" href="/">
+          <img src="/wp-content/themes/gnarlyknots/images/facebook-f.svg" alt="gnarly logo">
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="/">
+          <img src="/wp-content/themes/gnarlyknots/images/twitter.svg" alt="gnarly logo">
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="/")>
+          <img src="/wp-content/themes/gnarlyknots/images/instagram.svg" alt="gnarly logo">
+        </a>
+      </nav>
+	</header>
 	<div id="content" class="site-content">
