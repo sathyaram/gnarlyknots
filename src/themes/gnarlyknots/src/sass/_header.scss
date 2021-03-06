@@ -2,7 +2,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // background-color: tomato;
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -25,6 +24,10 @@ header {
   li:first-child {
     a {
       padding-left: 0;
+
+      @media screen and (max-width: $tablet) {
+        padding-left: 1rem;
+      }
     }
   }
 
@@ -82,6 +85,10 @@ header {
 
     &:last-child {
       margin-right: 0;
+
+      @media screen and (max-width: $tablet) {
+        margin-right: 1rem;
+      }
     }
 
     &:hover {

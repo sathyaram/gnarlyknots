@@ -33,7 +33,7 @@ body {
 }
 
 .hero-watermark {
-  max-width: 780px;
+  max-width: 900px;
   padding: 0 2rem;
   width: 100%;
   margin: 0 auto;
@@ -41,18 +41,22 @@ body {
   top: 50%;
   left: 50%;
   text-align: center;
-  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   transform: translateX(-50%) translateY(-50%);
+  
+  svg, svg * {
+    font-family: 'Helserif' !important;
+  }
 }
 
 .gnarly-watermark {
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.85);
   max-width: 500px;
   margin: 0 auto;
   width: 100%;
 }
 
 .hero-info {
-  margin-top: 2rem;
+  margin: 2rem auto 0;
   background-color: rgba($gold, 0.8);
   width: 100%;
   border-radius: 15px;
@@ -62,8 +66,74 @@ body {
   align-items: center;
   justify-content: space-between;
 
+  @media screen and (max-width: $ipad) {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+
+    .location {
+      margin-bottom: 2px;
+
+      &::before {
+      margin-left: -5px;
+      margin-right: -2px;
+    }
+    }
+  }
+
+  a {
+    color: $black;
+  }
+
   div {
-    // padding: 0.15rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    // &:not(:last-child) {
+    //   border-bottom: 1px solid black;
+    // }
+
+    &::before {
+      transform: scale(0.75);
+
+      @media screen and (max-width: $ipad) {
+        top: -10px;
+      }
+    }
+
+    &.hours {
+      margin-bottom: -5px;
+      &::before {
+        content: url("../gnarlyknots/images/clock-o.svg");
+      }
+
+      span {
+        padding: 0 0.5rem 0 0.25rem;
+      }
+    }
+
+    &.location {
+      &::before {
+        content: url("../gnarlyknots/images/map-pin.svg");
+        margin-bottom: -5px;
+        margin-right: -4px;
+      }
+    }
+
+    &.phone {
+      margin-bottom: -4px;
+      a {
+        color: $black;
+      }
+      &::before {
+      margin-bottom: -2px;
+
+        content: url("../gnarlyknots/images/phone.svg");
+      }
+    }
   }
 }
 
@@ -130,7 +200,28 @@ body {
     display: flex;
     .grid-photo {
       width: 25%;
-  height: auto;
+      height: 400px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+
+      &:nth-child(1) {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.5)),
+        url(/wp-content/themes/gnarlyknots/images/TBG-295.jpg);
+      }
+
+      &:nth-child(2) {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.5)),
+          url(/wp-content/themes/gnarlyknots/images/TBG-290.jpg);
+      }
+      &:nth-child(3) {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.5)),
+          url(/wp-content/themes/gnarlyknots/images/TBG-277.jpg);
+      }
+      &:nth-child(4) {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.5)),
+          url(/wp-content/themes/gnarlyknots/images/TBG-272.jpg);
+      }
 
       // max-height: 150px;
       // &:nth-child(2), &:nth-child(4) {
@@ -161,14 +252,14 @@ body {
   }
 
   p {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 6rem;
+  grid-gap: 4rem;
   
   @media screen and (max-width: $tablet) {
     grid-template-columns: repeat(2, 1fr);
@@ -186,11 +277,11 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: -4rem;
+      // margin-top: -4rem;
     }
 
     .menu-name {
-      font-size: 28px;
+      font-size: 24px;
       margin: 2rem 0 0.5rem;
       line-height: 100%;
     }
@@ -260,21 +351,42 @@ body {
 }
 
 .daily-soups {
-  background-image: linear-gradient(rgba($light-gold, 0.85), rgba($light-gold, 0.85)), url("../gnarlyknots/images/soup-pic.jpg");
+  background-image: linear-gradient(rgba($black, 0.6), rgba($black, 0.6)), url("../gnarlyknots/images/soup-pic.jpg");
   background-size: cover;
   background-position: center;
+
+  h3 {
+    color: $rich-gold;
+  }
+
+  p, .card {
+    color: white;
+  }
 }
 
 .sauces {
-  background-image: linear-gradient(rgba($light-gold, 0.85), rgba($light-gold, 0.85)), url("../gnarlyknots/images/sauce-pic.jpg");
+  background-image: linear-gradient(rgba($black, 0.6), rgba($black, 0.6)), url("../gnarlyknots/images/sauce-pic.jpg");
   background-size: cover;
   background-position: center 70%;
+
+  h3 {
+    color: $rich-gold;
+  }
+
+  p {
+    color: white;
+  }
 
   .cards {
     grid-template-columns: repeat(4, 1fr);
 
     .card {
       text-align: center;
+      color: white;
+
+      .menu-name {
+        color: $gold;
+      }
     }
   }
 }

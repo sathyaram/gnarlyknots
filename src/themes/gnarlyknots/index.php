@@ -36,16 +36,12 @@
 			<div class="section-headline">Eat More Pretzels</div>
 			<div class="photo-grid">
 				<div class="grid-photo">
-					<img src="https://picsum.photos/200/300">
 				</div>
 				<div class="grid-photo">
-					<img src="https://picsum.photos/200/300">
 				</div>
 				<div class="grid-photo">
-					<img src="https://picsum.photos/200/300">
 				</div>
 				<div class="grid-photo">
-					<img src="https://picsum.photos/200/300">
 				</div>
 			</div>
 		</section>
@@ -117,7 +113,7 @@
 							<div class="menu-name">
 								Pepperoni Pizza Stuffed
 							</div>
-							<div class="special-description">
+							<div class="menu-desc">
 								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
 							</div>
 						</div>
@@ -133,7 +129,7 @@
 							<div class="menu-name">
 								Steak Taco and Cheese Stuffed
 							</div>
-							<div class="menu-description">
+							<div class="menu-desc">
 								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
 							</div>
 						</div>
@@ -150,7 +146,7 @@
 							<div class="menu-name">
 								The Reuben Stuffed
 							</div>
-							<div class="menu-description">
+							<div class="menu-desc">
 								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
 							</div>
 						</div>
@@ -166,7 +162,7 @@
 							<div class="menu-name">
 								Italian Beef Stuffed
 							</div>
-							<div class="menu-description">
+							<div class="menu-desc">
 								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
 							</div>
 						</div>
@@ -182,7 +178,7 @@
 							<div class="menu-name">
 								Buffalo Chicken Mac & Cheese Stuffed
 							</div>
-							<div class="menu-description">
+							<div class="menu-desc">
 								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
 							</div>
 						</div>
@@ -198,7 +194,7 @@
 							<div class="menu-name">
 								Pepperoni Pizza Stuffed
 							</div>
-							<div class="menu-description">
+							<div class="menu-desc">
 								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
 							</div>
 						</div>
@@ -226,8 +222,8 @@
 							<div class="menu-name">
 								French Onion
 							</div>
-							<div class="special-description">
-								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
+							<div class="menu-desc">
+								Creamy blends of goodness.
 							</div>
 						</div>
 						<div class="card">
@@ -242,8 +238,8 @@
 							<div class="menu-name">
 								Black Bean
 							</div>
-							<div class="menu-description">
-								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
+							<div class="menu-desc">
+								Creamy blends of goodness.
 							</div>
 						</div>
 						<div class="card">
@@ -259,8 +255,8 @@
 							<div class="menu-name">
 								The Reuben Stuffed
 							</div>
-							<div class="menu-description">
-								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
+							<div class="menu-desc">
+								Creamy blends of goodness.
 							</div>
 						</div>
 						<div class="card">
@@ -275,8 +271,8 @@
 							<div class="menu-name">
 								Italian Beef Stuffed
 							</div>
-							<div class="menu-description">
-								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
+							<div class="menu-desc">
+								Creamy blends of goodness.
 							</div>
 						</div>
 						<div class="card">
@@ -291,8 +287,8 @@
 							<div class="menu-name">
 								Buffalo Chicken Mac & Cheese Stuffed
 							</div>
-							<div class="menu-description">
-								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
+							<div class="menu-desc">
+								Creamy blends of goodness.
 							</div>
 						</div>
 						<div class="card">
@@ -307,8 +303,8 @@
 							<div class="menu-name">
 								Pepperoni Pizza Stuffed
 							</div>
-							<div class="menu-description">
-								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
+							<div class="menu-desc">
+								Creamy blends of goodness.
 							</div>
 						</div>
 					</div>
