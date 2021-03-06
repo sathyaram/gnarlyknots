@@ -418,7 +418,7 @@
 			<div class="container">
 				<div class="section-header">
 					<h3>We Have Our Own Brand of<br>Gnarly Chips!</h3>
-					<div class="section-description">Buy them in store today!</div>
+					<p>Buy them in store today!</p>
 				</div>
 				<div class="section-content">
 					<div class="cards">
