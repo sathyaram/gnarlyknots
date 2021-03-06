@@ -47,7 +47,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="everyday-pretzels">
+		<section id="menu" class="everyday-pretzels">
 			<div class="container">
 				<div class="section-header">
 					<h3>Everyday Pretzels</h3>

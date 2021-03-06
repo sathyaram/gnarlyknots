@@ -17,7 +17,7 @@
 	</a> -->
 	<header role="banner">
 		<ul class="main-menu">
-			<li><a href="/">Menu</a></li>
+			<li><a href="#menu">Menu</a></li>
 			<li><a href="/">Media</a></li>
 			<li><a href="/">About</a></li>
 			<li><a href="/">Contact</a></li>
