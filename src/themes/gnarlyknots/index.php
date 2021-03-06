@@ -34,7 +34,7 @@
 		</section>
 		<section class="eat-more-pretzels">
 			<div class="section-headline"><span>Eat More Pretzels</span>
-				<a class="gnarly-button" href="">Buy a Gift Card Today!</a>
+				<a class="gnarly-button" target="_blank" rel="noopener noreferrer" href="https://app.yiftee.com/gifts/egift_and_gift_cards/gnarly-knots-pretzel-company">Buy a Gift Card Today!</a>
 			</div>
 			<div class="photo-grid">
 				<div class="grid-photo">
@@ -313,7 +313,7 @@
 				</div>
 			</div>
 		</section>
-		
+
 		<section class="sauces">
 			<div class="container">
 				<div class="section-header">
@@ -417,7 +417,7 @@
 		<section class="chips">
 			<div class="container">
 				<div class="section-header">
-					<h3>We Have Our Own Brand of<br>Gnarly Chips</h3>
+					<h3>We Have Our Own Brand of<br>Gnarly Chips!</h3>
 					<div class="section-description">Buy them in store today!</div>
 				</div>
 				<div class="section-content">
