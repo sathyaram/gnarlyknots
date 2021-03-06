@@ -2,33 +2,95 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  // background-color: tomato;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  padding: 1rem 30px;
+
+  @media screen and (max-width: $tablet) {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .main-menu {
   display: flex;
   width: 33.333%;
 
+  @media screen and (max-width: $tablet) {
+    width: auto;
+  }
+
+  li:first-child {
+    a {
+      padding-left: 0;
+    }
+  }
+
   a {
     display: inline-block;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     font-weight: 200;
+    color: white;
+
+    &:hover {
+      color: $gold;
+    }
   }
 }
 
 .logo {
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   text-transform: uppercase;
+  text-align: center;
+  line-height: 90%;
+  display: none;
+
+  @media screen and (max-width: $tablet) {
+  }
+
+  a {
+    color: white;
+  }
 }
 
 .social-media {
   display: flex;
-  width: 33.333%;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: flex-end;
+  width: 33.33%;
+
+  @media screen and (max-width: $tablet) {
+    width: auto;
+  }
 
   a {
-    display: inline-block;
-    padding: 1rem;
-    // max-width: 24px;
+    width: 34px;
+    height: 34px;
+    display: block;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 50px;
+    text-align: center;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.25rem 1rem;
+    transition: background 300ms ease;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background-color: $gold;
+    }
+
+    img {
+      height: 15px;
+      width: auto;
+    }
   }
 }

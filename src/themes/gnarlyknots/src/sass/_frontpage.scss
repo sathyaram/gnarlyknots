@@ -1,3 +1,284 @@
 body {
   background-color: $light-gold;
 }
+
+.hero {
+  height: 75vh;
+  position: relative;
+  z-index: 2;
+  // overflow: hidden;
+
+  .hero-background {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../gnarlyknots/images/gnarly-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    height: 100%;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-color: rgba($rich-brown, 0.35);
+    }
+  }
+}
+
+.hero-watermark {
+  max-width: 780px;
+  padding: 0 2rem;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.gnarly-watermark {
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero-info {
+  margin-top: 2rem;
+  background-color: rgba($gold, 0.8);
+  width: 100%;
+  border-radius: 15px;
+  font-weight: 200;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    // padding: 0.15rem;
+  }
+}
+
+.section-headline {
+  position: absolute;
+  color: $light-gold;
+  top: 50%;
+  left: 50%;
+  width: 105%;
+  text-align: center;
+  letter-spacing: 1.2rem;
+  z-index: 2;
+  // margin-left: 1.2rem;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 5vw;
+  font-family: "Rise";
+  // background-color:rgba($rich-brown, 0.5);
+}
+
+
+
+
+.about {
+  // padding: 2rem 0;
+  position: relative;
+  z-index: 1;
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: $brown;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-family: 'Rise';
+    text-transform: uppercase;
+  
+    // span {
+    //   font-family: "Rise";
+    //   font-size: 3rem;
+    //   transform: skewY(-1deg);
+    //   display: inline-block;
+    //   color: $gold;
+    //   text-shadow: none;
+    //   letter-spacing: 2px;
+    // }
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 150%;
+
+    @media screen and (max-width: $tablet) {
+      font-size: 20px;
+      line-height: 130%;
+    }
+  }
+}
+
+.eat-more-pretzels {
+  position: relative;
+  // overflow: hidden;
+  .photo-grid {
+    display: flex;
+    .grid-photo {
+      width: 25%;
+  height: auto;
+
+      // max-height: 150px;
+      // &:nth-child(2), &:nth-child(4) {
+      //   position: relative;
+      //   bottom: -20px;
+      // }
+
+      // &:nth-child(1), &:nth-child(3) {
+      //   position: relative;
+      //   bottom: 20px;
+      // }
+    }
+  }
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+
+  h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: $brown;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-family: 'Rise';
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6rem;
+  
+  @media screen and (max-width: $tablet) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+
+  // @media screen and (max-width: $surface) {
+  //   grid-template-columns: repeat(1, 1fr);
+  // }
+
+  .card {
+    color: $black;
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: -4rem;
+    }
+
+    .menu-name {
+      font-size: 28px;
+      margin: 2rem 0 0.5rem;
+      line-height: 100%;
+    }
+
+    .menu-desc {
+      font-weight: 200;
+      font-size: 18px;
+    }
+
+    .menu-day {
+      font-family: "Rise";
+      color: $rich-gold;
+      font-size: 1.75rem;
+    }
+
+    .menu-price {
+      font-family: 'Rise';
+      font-size: 24px;
+      position: relative;
+      display: inline-block;
+
+      &::before {
+        content: "$";
+        font-size: 14px;
+        position: absolute;
+        top: 0;
+        left: -10px;
+      }
+    }
+  }
+}
+
+.everyday-pretzels {
+  .card {
+    text-align: center;
+  }
+
+  .menu-image {
+    width: 200px;
+    margin: 0 auto;
+
+    img {
+      border-radius: 50px;
+    }
+  }
+}
+
+.daily-designated-pretzels {
+  .card {
+    padding: 3rem;
+    box-shadow: 9px 8px 2px 0 rgba(0,0,0,0.1);
+    background-color: $white;
+
+    .menu-name {
+      position: relative;
+      &::before {
+        // content:'';
+        position: absolute;
+        top: -1rem;
+        left: 0;
+        width: 100px;
+        height: 4px;
+        background-color: $rich-gold;
+      }
+    }
+  }
+}
+
+.daily-soups {
+  background-image: linear-gradient(rgba($light-gold, 0.85), rgba($light-gold, 0.85)), url("../gnarlyknots/images/soup-pic.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.sauces {
+  background-image: linear-gradient(rgba($light-gold, 0.85), rgba($light-gold, 0.85)), url("../gnarlyknots/images/sauce-pic.jpg");
+  background-size: cover;
+  background-position: center 70%;
+
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+
+    .card {
+      text-align: center;
+    }
+  }
+}
+
+.preorder-specials {
+
+}
