@@ -3,10 +3,14 @@ body {
 }
 
 .hero {
-  height: 75vh;
+  height: 700px;
   position: relative;
   z-index: 2;
   // overflow: hidden;
+
+  // @media screen and (max-width: $tablet) {
+  //   height: 90vh;
+  // }
 
   .hero-background {
     z-index: -1;
@@ -42,9 +46,10 @@ body {
   left: 50%;
   text-align: center;
   transform: translateX(-50%) translateY(-50%);
-  
-  svg, svg * {
-    font-family: 'Helserif' !important;
+
+  svg,
+  svg * {
+    font-family: "Helserif" !important;
   }
 }
 
@@ -77,9 +82,9 @@ body {
       margin-bottom: 2px;
 
       &::before {
-      margin-left: -5px;
-      margin-right: -2px;
-    }
+        margin-left: -5px;
+        margin-right: -2px;
+      }
     }
   }
 
@@ -91,6 +96,10 @@ body {
     position: relative;
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: $blazeit) {
+      font-size: 12px;
+    }
 
     // &:not(:last-child) {
     //   border-bottom: 1px solid black;
@@ -129,7 +138,7 @@ body {
         color: $black;
       }
       &::before {
-      margin-bottom: -2px;
+        margin-bottom: -2px;
 
         content: url("../gnarlyknots/images/phone.svg");
       }
@@ -142,24 +151,40 @@ body {
   color: $light-gold;
   top: 50%;
   left: 50%;
-  width: 105%;
   text-align: center;
-  letter-spacing: 1.2rem;
   z-index: 2;
   // margin-left: 1.2rem;
   transform: translateX(-50%) translateY(-50%);
-  font-size: 5vw;
-  font-family: "Rise";
   // background-color:rgba($rich-brown, 0.5);
+  width: 95%;
+  
+  span {
+    letter-spacing: 1.2rem;
+    font-size: 6vw;
+    font-family: "Rise";
+    line-height: 100%;
+    display: block;
+  }
 }
-
-
-
 
 .about {
   // padding: 2rem 0;
   position: relative;
   z-index: 1;
+
+  &::after {
+    content:'';
+    background-image: url(/wp-content/themes/gnarlyknots/images/orange-pret.svg);
+    background-repeat: repeat space 80px;
+    background-size: 220px 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+    z-index: -1;
+  }
 
   h3 {
     font-size: 2rem;
@@ -167,9 +192,9 @@ body {
     color: $brown;
     font-weight: 700;
     letter-spacing: 4px;
-    font-family: 'Rise';
+    font-family: "Rise";
     text-transform: uppercase;
-  
+
     // span {
     //   font-family: "Rise";
     //   font-size: 3rem;
@@ -190,6 +215,11 @@ body {
       font-size: 20px;
       line-height: 130%;
     }
+
+    @media screen and (max-width: $blazeit) {
+      font-size: 16px;
+      line-height: 130%;
+    }
   }
 }
 
@@ -198,6 +228,10 @@ body {
   // overflow: hidden;
   .photo-grid {
     display: flex;
+
+    @media screen and (max-width: $tablet) {
+      flex-wrap: wrap;
+    }
     .grid-photo {
       width: 25%;
       height: 400px;
@@ -205,21 +239,26 @@ body {
       background-size: cover;
       background-position: center center;
 
+      @media screen and (max-width: $tablet) {
+        width: 50%;
+        height: 200px;
+      }
+
       &:nth-child(1) {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.5)),
-        url(/wp-content/themes/gnarlyknots/images/TBG-295.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+          url(/wp-content/themes/gnarlyknots/images/TBG-295.jpg);
       }
 
       &:nth-child(2) {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.5)),
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
           url(/wp-content/themes/gnarlyknots/images/TBG-290.jpg);
       }
       &:nth-child(3) {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.5)),
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
           url(/wp-content/themes/gnarlyknots/images/TBG-277.jpg);
       }
       &:nth-child(4) {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.5)),
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
           url(/wp-content/themes/gnarlyknots/images/TBG-272.jpg);
       }
 
@@ -247,7 +286,7 @@ body {
     color: $brown;
     font-weight: 700;
     letter-spacing: 4px;
-    font-family: 'Rise';
+    font-family: "Rise";
     text-transform: uppercase;
   }
 
@@ -260,15 +299,19 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 4rem;
-  
+
   @media screen and (max-width: $tablet) {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
   }
 
-  // @media screen and (max-width: $surface) {
-  //   grid-template-columns: repeat(1, 1fr);
-  // }
+  @media screen and (max-width: $surface) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  @media screen and (max-width: $blazeit) {
+    grid-gap: 2rem;
+  }
 
   .card {
     color: $black;
@@ -298,7 +341,7 @@ body {
     }
 
     .menu-price {
-      font-family: 'Rise';
+      font-family: "Rise";
       font-size: 24px;
       position: relative;
       display: inline-block;
@@ -315,6 +358,22 @@ body {
 }
 
 .everyday-pretzels {
+  position: relative;
+
+  &::after {
+    content:'';
+    background-image: url(/wp-content/themes/gnarlyknots/images/orange-pret.svg);
+    background-repeat: repeat space 80px;
+    background-size: 220px 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+    z-index: -1;
+  }
+
   .card {
     text-align: center;
   }
@@ -323,6 +382,7 @@ body {
     width: 200px;
     margin: 0 auto;
 
+
     img {
       border-radius: 50px;
     }
@@ -330,9 +390,35 @@ body {
 }
 
 .daily-designated-pretzels {
+  position: relative;
+
+  &::after {
+    content:'';
+    background-image: url(/wp-content/themes/gnarlyknots/images/orange-pret.svg);
+    background-repeat: repeat space 80px;
+    background-size: 220px 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+    z-index: -1;
+  }
+  .cards {
+
+    @media screen and (max-width: $mac) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: $tablet) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
   .card {
-    padding: 3rem;
-    box-shadow: 9px 8px 2px 0 rgba(0,0,0,0.1);
+    padding: 2rem 3rem;
+    box-shadow: 9px 8px 2px 0 rgba(0, 0, 0, 0.1);
     background-color: $white;
 
     .menu-name {
@@ -359,7 +445,8 @@ body {
     color: $rich-gold;
   }
 
-  p, .card {
+  p,
+  .card {
     color: white;
   }
 }
@@ -380,6 +467,10 @@ body {
   .cards {
     grid-template-columns: repeat(4, 1fr);
 
+    @media screen and (max-width: $tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
     .card {
       text-align: center;
       color: white;
@@ -392,5 +483,93 @@ body {
 }
 
 .preorder-specials {
+  position: relative;
 
+  &::after {
+    content:'';
+    background-image: url(/wp-content/themes/gnarlyknots/images/orange-pret.svg);
+    background-repeat: repeat space;
+    background-size: 220px 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+    z-index: -1;
+  }
+  img {
+    width: 100%;
+    height:230px;
+    object-fit: cover;
+  }
+}
+
+.chips {
+  background-image: linear-gradient(rgba($gold, 0.8), rgba($gold, 0.8)), url("../gnarlyknots/images/TBG-314.jpg");
+  background-size: cover;
+  background-position: center 70%;
+  background-color: $light-gold;
+
+  h3 {
+    color: white;
+  }
+
+  .cards {
+    display: flex;
+
+    @media screen and (max-width: $tablet) {
+      display: block;
+    }
+
+    .card {
+      width: 33.333%;
+      position: relative;
+      background-color: $white;
+      padding-bottom: 0;
+      max-width: 450px;
+
+      @media screen and (max-width: $tablet) {
+        width: 100%;
+        transform: none !important;
+        margin: 0 auto 2rem;
+      }
+
+      &:nth-child(1) {
+        transform: rotate(-10deg) translateY(60px) translateX(80px);
+      }
+
+      &:nth-child(2) {
+        .shop-image {
+          background-image: url(/wp-content/themes/gnarlyknots/images/TBG-268.jpg);
+        }
+      }
+
+      &:nth-child(3) {
+        transform: rotate(10deg) translateY(60px) translateX(-80px);
+        .shop-image {
+          background-image: url(/wp-content/themes/gnarlyknots/images/TBG-132.jpg);
+        }
+      }
+    }
+  }
+  .shop-image {
+    width: 100%;
+    height: 400px;
+    background-image: url(/wp-content/themes/gnarlyknots/images/TBG-298.jpg);
+    background-size: cover;
+    background-position: center center;
+    border: 25px solid white;
+    box-shadow: 9px 8px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.15);
+
+    @media screen and (max-width: $screen) {
+      height: 200px;
+    }
+  }
+  .shop-title {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
 }
