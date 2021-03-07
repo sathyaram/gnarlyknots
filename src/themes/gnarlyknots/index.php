@@ -9,14 +9,14 @@
 					<img src="/wp-content/themes/gnarlyknots/images/gnarly-watermark.svg" alt="gnarly logo">
 				</div>
 				<div class="hero-info">
-					<div class="location">27W570 High Lake Rd,Winfield, Illinois</div>
+					<div class="location"><?php the_field('address') ?></div>
 					<div class="phone">
-						<a href="tel:6304730439">(630) 473-0439</a>
+						<?php the_field('phone_number') ?></a>
 					</div>
 					<div class="hours">
-						<span>M-F - 11-4</span>
-						<span>Sat - 11-3</span>
-						<span>Sun - Closed</span>
+						<span>M-F - <?php the_field('monday_through_friday') ?></span>
+						<span>Sat - <?php the_field('saturday') ?></span>
+						<span>Sun - <?php the_field('sunday') ?></span>
 					</div>
 				</div>
 			</div>
