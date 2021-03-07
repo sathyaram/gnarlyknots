@@ -17,10 +17,10 @@
 	</a> -->
 	<header role="banner">
 		<ul class="main-menu">
-			<li><a href="/">Menu</a></li>
-			<li><a href="/">Media</a></li>
-			<li><a href="/">About</a></li>
-			<li><a href="/">Contact</a></li>
+			<li><a href="./menu">Menu</a></li>
+			<li><a href="./media">Media</a></li>
+			<li><a href="./about">About</a></li>
+			<li><a href="./contact">Contact</a></li>
 		</ul>
 		<h1 class="logo">
 			<a href="/"><span>Gnarly<br>Knots<span></a>
