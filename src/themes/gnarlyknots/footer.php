@@ -16,7 +16,6 @@
 	<footer id="colophon" class="site-footer">
 	</footer><!-- #colophon -->
 </div><!-- #page -->
-<?php get_template_part('template-parts/contact') ?>
 <?php wp_footer(); ?>
 
 </body>
