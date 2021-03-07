@@ -1,0 +1,61 @@
+.about-page {
+  position: relative;
+
+  &::after {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-image: linear-gradient(rgba($rich-brown, 0.7), rgba($rich-brown, 0.8)), url("../gnarlyknots/images/sprinkling-salt.jpg");
+    background-size: cover;
+    background-position: center 70%;
+    z-index: -1;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 5rem 0 3rem;
+    color: white;
+    text-transform: uppercase;
+    color: $light-gold;
+  }
+
+  p {
+    color: white;
+    font-size: 24px;
+    font-weight: 200;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    line-height: 140%;
+  }
+
+
+  hr {
+    border: 1px solid $gold;
+    margin: 3rem 0;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    color: $rich-gold;
+    margin-bottom: 3rem;
+  }
+
+  .question {
+    color: $gold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .answer {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+  }
+}
+

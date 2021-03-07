@@ -9,7 +9,7 @@
 					<img src="/wp-content/themes/gnarlyknots/images/gnarly-watermark.svg" alt="gnarly logo">
 				</div>
 				<div class="hero-info">
-					<div class="location">27W570 High Lake Rd,Winfield, Illinois</div>
+					<div class="location"><a target="_blank" href="https://goo.gl/maps/CUEvSncSbXHm5Fdt6">27W570 High Lake Rd,Winfield, Illinois</a></div>
 					<div class="phone">
 						<a href="tel:6304730439">(630) 473-0439</a>
 					</div>
@@ -353,7 +353,7 @@
 							<div class="menu-price">2</div>
 						</div>
 						<div class="card">
-							<div class="menu-name">Connamon Cream</div>
+							<div class="menu-name">Cinnamon Cream</div>
 							<div class="menu-desc">It's delicious.</div>
 							<div class="menu-price">2</div>
 						</div>
@@ -418,7 +418,7 @@
 			<div class="container">
 				<div class="section-header">
 					<h3>We Have Our Own Brand of<br>Gnarly Chips!</h3>
-					<p>Buy them in store today!</p>
+					<p>Original, Cheese, Caramelized Onion and Spicy Sofrito! <br>Buy them in store today!</p>
 				</div>
 				<div class="section-content">
 					<div class="cards">
@@ -436,6 +436,8 @@
 			</div>
 		</section>
 	</main><!-- #main -->
+
+
 </div><!-- #primary -->
 
 <?php

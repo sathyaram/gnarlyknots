@@ -3,7 +3,7 @@ body {
 }
 
 .hero {
-  height: 700px;
+  height: 820px;
   position: relative;
   z-index: 2;
   // overflow: hidden;
@@ -528,6 +528,11 @@ body {
   background-size: cover;
   background-position: center 70%;
   background-color: $light-gold;
+  
+  .container {
+    padding-bottom: 9rem;
+  }
+
 
   h3 {
     color: white;
@@ -535,6 +540,7 @@ body {
 
   .cards {
     display: flex;
+    transform: translateY(-40px);
 
     @media screen and (max-width: $tablet) {
       display: block;

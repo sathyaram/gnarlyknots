@@ -56,7 +56,7 @@ if (isset($_POST['submitted'])) {
                         Please know we do not take same day orders and require at least one day's advanced notice. Leaving a message on our voicemail does not an order make.... please speak with a human for any pre-orders! <br><br> We can answer questions much faster and more efficiently with a phone call than a message or Facebook comment! <br><br>
                         We do not ship our products. Apologies.
                         <br><br>
-                        Map: <a target="_blank" href="https://goo.gl/maps/CUEvSncSbXHm5Fdt6">7W570 High Lake Rd,Winfield, Illinois</a>
+                        Map: <a target="_blank" href="https://goo.gl/maps/CUEvSncSbXHm5Fdt6">27W570 High Lake Rd,Winfield, Illinois</a>
                         <br>
                         <div class="contact-hours">Hours: 
                             <span>M-F - 11-4</span> |

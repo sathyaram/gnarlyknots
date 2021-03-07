@@ -1,0 +1,93 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 200;
+  font-size: 1rem;
+  padding: 2rem;
+
+  
+}
+
+.testimonials {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  
+  h3 {
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    font-size: 3.25rem;
+    transform: translateX(-50%);
+    z-index: 2;
+    color: $light-gold;
+    width: 100%;
+  }
+
+  .stars {
+    color: $gold;
+    margin-bottom: 1rem;
+  }
+
+  .testimonial {
+    position: relative;
+    flex-grow: 1;
+    text-align: center;
+    padding: 5rem 1rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
+      url(/wp-content/themes/gnarlyknots/images/TBG-295.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 25%;
+    transition: transform 300ms ease;
+
+    @media screen and (max-width: $screen) {
+      width: 50%;
+      height: 200px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+
+      .testimonial-title {
+        color: $gold;
+      }
+    }
+
+    &:nth-child(2) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
+        url(/wp-content/themes/gnarlyknots/images/TBG-290.jpg);
+    }
+    &:nth-child(3) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
+        url(/wp-content/themes/gnarlyknots/images/TBG-277.jpg);
+    }
+    &:nth-child(4) {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
+        url(/wp-content/themes/gnarlyknots/images/TBG-272.jpg);
+    }
+
+    .testimonial-title {
+      text-transform: uppercase;
+      transform: skewY(-5deg);
+      font-size: 2rem;
+      line-height: 100%;
+    }
+
+    .testimonial-wrapper {
+      // opacity: 0;
+    }
+
+    .off-button {
+      color: $gold;
+    }
+  }
+}

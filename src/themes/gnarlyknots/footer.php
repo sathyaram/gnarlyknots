@@ -12,11 +12,51 @@
 ?>
 
 	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer">
-	</footer><!-- #colophon -->
+	<section class="testimonials">
+		<!-- <div class="section-header">
+			<h3>The Critics Have Spoken!</h3>
+		</div> -->
+  <div class="testimonial">
+	<div class="stars">
+		★★★★★
+		</div>
+    <div class="testimonial-title">Thrillist</div>
+    <a class="gnarly-button" target="_blank" href="/">
+     Watch the Video
+    </a>
+  </div>
+  <div class="testimonial">
+	<div class="stars">
+		★★★★★
+		</div>
+    <div class="testimonial-title">Thrillist</div>
+    <a class="gnarly-button" target="_blank" href="/">
+      Watch the Video
+    </a>
+  </div>
+  <div class="testimonial">
+	<div class="stars">
+		★★★★★
+		</div>
+    <div class="testimonial-title">Chicago's Best</div>
+    <a class="gnarly-button" target="_blank" href="/">
+      Watch the Video
+    </a>
+  </div>
+  <div class="testimonial">
+		<div class="stars">
+		★★★★★
+		</div>
+    <div class="testimonial-title">You and Me This Morning</div>
+    <a class="gnarly-button" target="_blank" href="/">
+      Watch the Video
+    </a>
+  </div>
+</section>
+	<footer>
+	© 2021 Gnarly Knots Pretzel Company
+	</footer>
 </div><!-- #page -->
-<?php wp_footer(); ?>
 
 </body>
 </html>
