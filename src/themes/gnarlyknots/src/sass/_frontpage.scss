@@ -330,12 +330,13 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      // margin-top: -4rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid $light-gold;
     }
 
     .menu-name {
       font-size: 24px;
-      margin: 2rem 0 0.5rem;
+      margin: 1.25rem 0 0.5rem;
       line-height: 100%;
     }
 
@@ -416,7 +417,6 @@ body {
     z-index: -1;
   }
   .cards {
-
     @media screen and (max-width: $mac) {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -424,8 +424,6 @@ body {
     @media screen and (max-width: $tablet) {
       grid-template-columns: repeat(1, 1fr);
     }
-
-    
   }
 
   .card {
@@ -435,6 +433,10 @@ body {
 
     @media screen and (max-width: $blazeit) {
       padding: 2rem;
+    }
+
+    .card-header {
+      border-bottom: 1px solid $gold;
     }
 
     .menu-name {
