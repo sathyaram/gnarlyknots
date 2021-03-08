@@ -12,6 +12,7 @@
     background-image: linear-gradient(rgba($rich-brown, 0.7), rgba($rich-brown, 0.8)), url("../gnarlyknots/images/sprinkling-salt.jpg");
     background-size: cover;
     background-position: center 70%;
+    background-attachment: fixed;
     z-index: -1;
   }
 
@@ -33,6 +34,28 @@
     line-height: 140%;
   }
 
+  .about-info {
+    text-align: center;
+    color: $light-gold;
+    font-size: 1.25rem;
+
+    span {
+      color: #eedc84;
+    }
+
+    a {
+      color: $rich-gold;
+
+      &::after {
+        content:'↗';
+        font-size: 12px;
+        position: relative;
+        margin-left: 4px;
+        top: -3px;
+        color: $rich-gold;
+      }
+    }
+  }
 
   hr {
     border: 1px solid $gold;

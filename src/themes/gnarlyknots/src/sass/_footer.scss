@@ -4,8 +4,8 @@ footer {
   justify-content: center;
   font-weight: 200;
   font-size: 1rem;
-  padding: 2rem;
-
+  padding: 1rem 2rem;
+  background-color: $light-gold;
   
 }
 
@@ -26,7 +26,7 @@ footer {
   }
 
   .stars {
-    color: $gold;
+    color: $rich-gold;
     margin-bottom: 1rem;
   }
 
@@ -56,6 +56,8 @@ footer {
 
     &:hover {
       transform: scale(1.2);
+      position: relative;
+      z-index: 2;
 
       .testimonial-title {
         color: $gold;

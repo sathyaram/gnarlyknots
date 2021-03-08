@@ -4,7 +4,7 @@
   <div class="container-smaller">
     <h1>About</h1>
     <div class="about-desc">
-      <p>Welcome to <strong>Gnarly Knots Pretzel Company</strong>! Traditional Bavarian Style Pretzels begin your experience at GKPC, but where we really shine is when we get zany and stuff them with all sorts of delicious yum yums!! We bake our pretzels fresh and make our homemade soups every day. Stop by and give us a try! We know you'll love it.</p>
+      <p>Welcome to <strong>Gnarly Knots Pretzel Company</strong>! <br><br>Traditional Bavarian Style Pretzels begin your experience at GKPC, but where we really shine is when we get zany and stuff them with all sorts of delicious yum yums!! We bake our pretzels fresh and make our homemade soups every day. Stop by and give us a try! We know you'll love it.</p>
       <br>
       <p>We do not have any seating available.... it's strictly Take & Go until we reach Stage 5.  Please plan your trip to our facility accordingly!</p>
       <br>
@@ -12,6 +12,17 @@
       <br>
 
       <p>Thank you so much for your continued patronage! You are the reason we arise every day at 4:30AM with a smile on our faces!</p>
+      <hr>
+      <div class="about-info">
+        Map: <a target="_blank" href="https://goo.gl/maps/CUEvSncSbXHm5Fdt6">27W570 High Lake Rd,Winfield, Illinois</a>
+        <br>
+        <div class="contact-hours">Hours: 
+            <span>M-F - 11-4</span> |
+            <span>Sat - 11-3</span> |
+            <span>Sun - Closed</span>
+        </div>
+        Call: <a href="tel:6304730439">630-473-0439</a>
+</div>
       <hr>
       <h2>Frequently Asked Questions</h2>
       <div class="question">
