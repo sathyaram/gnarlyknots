@@ -192,7 +192,7 @@
 			<div class="container">
 				<div class="section-header">
 					<h3>Daily Soups</h3>
-					<p>Our delicious mouth-watering soups that go hand in hand with your favorite pretzel.</p>
+					<p>Our delicious mouth-watering soups that go hand in hand with your favorite pretzel. Quarts start at $10 or $8 if you buy it frozen. <br>$3.25 for a cup ($2 with a pretzel). <br>$4.25 for a bowl ($3 with a pretzel). </p>
 				</div>
 				<div class="section-content">
 					<div class="cards">
@@ -202,7 +202,7 @@
 									Monday
 								</div>
 								<div class="menu-price">
-									8
+									3.25
 								</div>
 							</div>
 							<div class="menu-name">
@@ -218,7 +218,7 @@
 									Tuesday
 								</div>
 								<div class="menu-price">
-									9
+									3.25
 								</div>
 							</div>
 							<div class="menu-name">
@@ -234,7 +234,7 @@
 									Wednesday
 								</div>
 								<div class="menu-price">
-									9
+									3.25
 								</div>
 							</div>
 							<div class="menu-name">
@@ -250,7 +250,7 @@
 									Thursday
 								</div>
 								<div class="menu-price">
-									9
+									3.25
 								</div>
 							</div>
 							<div class="menu-name">
@@ -266,7 +266,7 @@
 									Friday
 								</div>
 								<div class="menu-price">
-									9
+									3.25
 								</div>
 							</div>
 							<div class="menu-name">
@@ -282,11 +282,27 @@
 									Saturday
 								</div>
 								<div class="menu-price">
-									9
+									3.25
 								</div>
 							</div>
 							<div class="menu-name">
 								Chicken Poblano
+							</div>
+							<div class="menu-desc">
+								Creamy blends of goodness.
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="menu-day">
+									Everyday
+								</div>
+								<div class="menu-price">
+									3.25
+								</div>
+							</div>
+							<div class="menu-name">
+								Tomato Basil
 							</div>
 							<div class="menu-desc">
 								Creamy blends of goodness.
@@ -410,49 +426,41 @@
 			<div class="container">
 				<div class="section-header">
 					<h3>Sauces</h3>
-					<p>Our one-of-a-kind sauces that you can buy to enjoy anytime at home. </p>
+					<p>Our one-of-a-kind sauces that you can buy to enjoy anytime at home. <br>2oz portion $0.75. 8oz portion $2.75.</p>
 				</div>
 				<div class="section-content">
 					<div class="cards">
 						<div class="card">
 							<div class="menu-name">Creamy Mustard</div>
 							<div class="menu-desc">It's delicious.</div>
-							<div class="menu-price">2</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Apricot Habanero</div>
 							<div class="menu-desc">It's delicious.</div>
-							<div class="menu-price">2</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Nacho Cheese</div>
 							<div class="menu-desc">It's delicious.</div>
-							<div class="menu-price">2</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Herb Butter</div>
 							<div class="menu-desc">It's delicious.</div>
-							<div class="menu-price">2</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Cinnamon Butter</div>
 							<div class="menu-desc">It's delicious.</div>
-							<div class="menu-price">2</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Nutella</div>
 							<div class="menu-desc">It's delicious.</div>
-							<div class="menu-price">2</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Cinnamon Cream</div>
 							<div class="menu-desc">It's delicious.</div>
-							<div class="menu-price">2</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Honey Mustard</div>
 							<div class="menu-desc">Tangy and delicious.</div>
-							<div class="menu-price">2</div>
 						</div>
 					</div>
 				</div>
@@ -469,7 +477,7 @@
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/TBG-261.jpg" alt="salted"></div>
 							<div class="menu-name">Pretzel Bites</div>
-							<div class="menu-desc">Available in the following flavors:  Salted, Cheese-topped, Garlic Asiago or Cinnamon Sugar (up to two flavors per box if you like!) 75-90 (1oz) pretzel bites per box.</div>
+							<div class="menu-desc">Salted, Cheese-topped, Garlic Asiago or Cinnamon Sugar (up to two flavors per box if you like!) 75-90 (1oz) pretzel bites per box.</div>
 							<div class="menu-price">18</div>
 						</div>
 						<div class="card">
@@ -481,13 +489,13 @@
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/TBG-308.jpg" alt="salted"></div>
 							<div class="menu-name">Mini Giant Pretzels</div>
-							<div class="menu-desc">Available in our core flavors: Salted, Cheese-topped, Garlic Asiago or Cinnamon Sugar - comes with your choice of one sauce. One Pound of Pretzel goodness. </div>
+							<div class="menu-desc">Salted, Cheese-topped, Garlic Asiago or Cinnamon Sugar - comes with your choice of one sauce. One Pound of Pretzel goodness. </div>
 							<div class="menu-price">5</div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/TBG-304.jpg" alt="salted"></div>
 							<div class="menu-name">Giant Pretzels</div>
-							<div class="menu-desc">Available in our core flavors: Salted, Cheese-topped, Garlic Asiago or Cinnamon Sugar - comes with your choice of three sauces. Two Pounds of Ultimate Pretzel Goodness.</div>
+							<div class="menu-desc">Salted, Cheese-topped, Garlic Asiago or Cinnamon Sugar - comes with your choice of three sauces. Two Pounds of Ultimate Pretzel Goodness.</div>
 							<div class="menu-price">12</div>
 						</div>
 						<div class="card">

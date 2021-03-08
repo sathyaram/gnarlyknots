@@ -358,6 +358,7 @@ body {
       font-size: 24px;
       position: relative;
       display: inline-block;
+      letter-spacing: 2px;
 
       &::before {
         content: "$";
@@ -465,6 +466,35 @@ body {
     color: $gold;
   }
 
+  p {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card {
+      width: 29%;
+
+      @media screen and (max-width: $ipad) {
+        width: 33.333%;
+      }
+
+      @media screen and (max-width: $ipad) {
+        width: 45%;
+      }
+
+      &:last-child {
+      .menu-day {
+        color: #f6e8c1;
+      }
+    }
+    }
+  }
+
   p,
   .card {
     color: white;
@@ -523,6 +553,10 @@ body {
     height:230px;
     object-fit: cover;
   }
+  .menu-price {
+    margin-top: 0.25rem;
+    margin-left: 0.75rem;
+  }
 }
 
 .chips {
@@ -533,16 +567,22 @@ body {
   
   .container {
     padding-bottom: 9rem;
+
+    @media screen and (max-width: $tablet) {
+      padding-bottom: 1rem;
+    }
   }
 
 
   h3 {
     color: white;
+    line-height: 100%;
   }
 
   .cards {
     display: flex;
     transform: translateY(-40px);
+    grid-gap: 0;
 
     @media screen and (max-width: $tablet) {
       display: block;
@@ -598,4 +638,6 @@ body {
     font-size: 1.5rem;
     padding: 2rem;
   }
+
+
 }

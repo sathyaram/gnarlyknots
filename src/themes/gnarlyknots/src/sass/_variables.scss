@@ -70,6 +70,11 @@ $desktop: 1280px;
   font-size: 15px;
   transition: background 300ms ease, color 300ms ease;
 
+  @media screen and (max-width: $tablet) {
+    padding: 0.85rem 1rem 0.45rem;
+    font-size: 13px;
+  }
+
   &::before {
     content:url('../gnarlyknots/images/orange-pret.svg');
     height: auto;

@@ -58,11 +58,7 @@ if (isset($_POST['submitted'])) {
                         <br><br>
                         Map: <a target="_blank" href="https://goo.gl/maps/CUEvSncSbXHm5Fdt6">27W570 High Lake Rd,Winfield, Illinois</a>
                         <br>
-                        <div class="contact-hours">Hours: 
-                            <span>M-F - 11-4</span> |
-                            <span>Sat - 11-3</span> |
-                            <span>Sun - Closed</span>
-                        </div>
+                        <div>Email: <a href="mailto:gnarlyknots@rocketmail.com">gnarlyknots@rocketmail.com</a></div>
                         Call: <a href="tel:6304730439">630-473-0439</a>
                     </div>
                     <hr>

@@ -26,12 +26,17 @@ header {
   }
 
   li:first-child {
+    @media screen and (min-width: $tablet) {
+      display: none;
+    }
+  }
+
+  li:nth-child(2) {
     a {
       padding-left: 1rem;
       
       @media screen and (min-width: $tablet) {
         padding-left: 0;
-        display: none;
       }
     }
   }
@@ -62,6 +67,7 @@ header {
   a {
     color: #fffae5;
     position: relative;
+    top: 2.5px;
 
     &:hover {
       color: white;

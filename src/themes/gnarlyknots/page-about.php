@@ -14,13 +14,15 @@
       <p>Thank you so much for your continued patronage! You are the reason we arise every day at 4:30AM with a smile on our faces!</p>
       <hr>
       <div class="about-info">
-        Map: <a target="_blank" href="https://goo.gl/maps/CUEvSncSbXHm5Fdt6">27W570 High Lake Rd,Winfield, Illinois</a>
+        
         <br>
         <div class="contact-hours">Hours: 
-            <span>M-F - 11-4</span> |
-            <span>Sat - 11-3</span> |
-            <span>Sun - Closed</span>
+          <span>M-F - 11-4</span> |
+          <span>Sat - 11-3</span> |
+          <span>Sun - Closed</span>
         </div>
+        Map: <a target="_blank" href="https://goo.gl/maps/CUEvSncSbXHm5Fdt6">27W570 High Lake Rd,Winfield, Illinois</a>
+        <div>Email: <a href="mailto:gnarlyknots@rocketmail.com">gnarlyknots@rocketmail.com</a></div>
         Call: <a href="tel:6304730439">630-473-0439</a>
 </div>
       <hr>
