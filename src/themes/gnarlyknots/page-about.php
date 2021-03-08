@@ -103,12 +103,6 @@
       <div class="answer">
       When we started in the pretzel game, we had no idea that so many folks would love it so much!!  We hoped of course.... but erred on the side of caution when choosing our first location.  We want to make as many pretzels as we possibly can to assuage the masses, that means that our inside space has to be for making!!  So, consider us to be a Take & Go establishment.
       </div>
-      <div class="question">
-      How do I book your food truck?
-      </div>
-      <div class="answer">
-      We have retired from the food truck business.  We are currently selling the truck if you know anyone that wants to start their own concept amazing food truck and is in need of the vehicle with which to do it!
-      </div>
     </div>
   </div>
 </div>

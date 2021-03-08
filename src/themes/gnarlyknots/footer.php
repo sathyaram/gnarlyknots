@@ -29,7 +29,7 @@
 	<div class="stars">
 		★★★★★
 		</div>
-    <div class="testimonial-title">Thrillist</div>
+    <div class="testimonial-title">Travel Channel</div>
     <a class="gnarly-button" target="_blank" href="/">
       Watch the Video
     </a>
