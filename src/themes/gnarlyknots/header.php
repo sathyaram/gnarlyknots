@@ -23,7 +23,7 @@
 			<li><a href="./contact">Contact</a></li>
 		</ul>
 		<h1 class="logo">
-			<a href="/"><span>Gnarly Knots<span></a>
+			<a href="/"><h1>Gnarly Knots</h1></a>
 		</h1>
 		<nav class="social-media" role="navigation">
         <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Gnarly-Knots-Pretzel-Company-266064870082466/">

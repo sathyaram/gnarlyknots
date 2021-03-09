@@ -602,7 +602,7 @@ body {
       }
 
       &:nth-child(1) {
-        transform: rotate(-10deg) translateY(60px) translateX(80px);
+        transform: rotate(-10deg) translateY(60px) translateX(50px);
       }
 
       &:nth-child(2) {
@@ -612,7 +612,7 @@ body {
       }
 
       &:nth-child(3) {
-        transform: rotate(10deg) translateY(60px) translateX(-80px);
+        transform: rotate(10deg) translateY(60px) translateX(-50px);
         .shop-image {
           background-image: url(/wp-content/themes/gnarlyknots/images/TBG-132.jpg);
         }
