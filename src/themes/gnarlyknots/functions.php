@@ -48,7 +48,11 @@ if ( ! function_exists( 'my_site_setup' ) ) :
 		add_theme_support( 'post-thumbnails' );
 
 		// This theme uses wp_nav_menu() in one location.
-		register_nav_menu('headerMenuLocation', 'Header Menu Location');
+		register_nav_menus(
+			array(
+				'menu-1' => esc_html__( 'Primary', 'my-site' ),
+			)
+		);
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
@@ -96,6 +100,7 @@ if ( ! function_exists( 'my_site_setup' ) ) :
 				'flex-height' => true,
 			)
 		);
+		register_nav_menu('headerMenuLocation', 'Header Menu Location');
 	}
 endif;
 add_action( 'after_setup_theme', 'my_site_setup' );
@@ -139,16 +144,32 @@ add_action( 'widgets_init', 'my_site_widgets_init' );
  * Enqueue scripts and styles.
  */
 function my_site_scripts() {
+
+	remove_action('wp_head', '_admin_bar_bump_cb');
+
+	wp_register_style( 'my-site-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_style( 'my-site-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'slick-css', untrailingslashit( get_template_directory_uri() ) . '/src/css/slick.css', [], false, 'all' );
+	wp_enqueue_style( 'slick-theme-css', untrailingslashit( get_template_directory_uri() ) . '/src/css/slick-theme.css', ['slick-css'], false, 'all' );
 
-	wp_enqueue_script( 'my-site-plugins', get_template_directory_uri() . '/js/plugins.min.js', array(), _S_VERSION, true );
-	wp_enqueue_script( 'my-site-main', get_template_directory_uri() . '/js/main.min.js', array(), _S_VERSION, true );
+	wp_register_script( 'my-site-plugins', get_template_directory_uri() . '/js/plugins.min.js', array(), _S_VERSION, true );
+	wp_register_script( 'my-site-main', get_template_directory_uri() . '/js/main.min.js', array(), _S_VERSION, true );
 
+	wp_enqueue_script('my-site-plugins');
+	wp_enqueue_script('my-site-main');
+	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'my_site_scripts' );
+
+function add_local_fonts() {
+	wp_enqueue_style( 'local_web_fonts',
+	get_stylesheet_directory_uri() . '/font.css');
+}
+
+add_action( 'enqueue_block_assets', 'add_local_fonts' );
 
 /**
  * Implement the Custom Header feature.
@@ -169,6 +190,11 @@ require get_template_directory() . '/inc/template-functions.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+/**
+ * Custom Gutenberg blocks.
+ */ 
+require get_template_directory() . '/inc/gutenberg.php';
 
 /**
  * Load Jetpack compatibility file.
