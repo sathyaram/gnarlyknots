@@ -10,6 +10,7 @@ if (isset($_POST['submitted'])) {
         $hasError = true;
     } else {
         $name = trim($_POST['contactName']);
+        $subject = trim($_POST['subject']);
     }
 
     if (trim($_POST['email']) === '') {
@@ -34,11 +35,10 @@ if (isset($_POST['submitted'])) {
     }
 
     if (!isset($hasError)) {
-        $emailTo = get_option('tz_email');
+        $emailTo = 'khandker.islam46@gmail.com';
         if (!isset($emailTo) || ($emailTo == '')) {
             $emailTo = get_option('admin_email');
         }
-        $subject = '[PHP Snippets] From ' . $name;
         $body = "Name: $name \n\nEmail: $email \n\nComments: $comments";
         $headers = 'From: ' . $name . ' <' . $emailTo . '>' . "\r\n" . 'Reply-To: ' . $email;
 
@@ -87,6 +87,14 @@ if (isset($_POST['submitted'])) {
                                         <li>
                                             <label for="email">Email:</label>
                                             <input type="text" name="email" id="email" value="<?php if (isset($_POST['email']))  echo $_POST['email']; ?>" class="required requiredField email" />
+                                            <?php if ($emailError != '') { ?>
+                                                <span class="error"><?= $emailError; ?></span>
+                                            <?php } ?>
+                                        </li>
+
+                                        <li>
+                                            <label for="subject">Subject:</label>
+                                            <input type="text" name="subject" id="subject" value="<?php if (isset($_POST['subject']))  echo $_POST['subject']; ?>" class="required requiredField subject" />
                                             <?php if ($emailError != '') { ?>
                                                 <span class="error"><?= $emailError; ?></span>
                                             <?php } ?>

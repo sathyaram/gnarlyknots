@@ -10,7 +10,6 @@
  */
 
 ?>
-
 	</div><!-- #content -->
 	<section class="testimonials">
 		<!-- <div class="section-header">
@@ -59,4 +58,5 @@
 </div><!-- #page -->
 
 </body>
+<?php wp_footer(); ?>
 </html>

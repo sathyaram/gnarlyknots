@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <div class="content-area">
 	<main class="site-main">
 		<section class="hero">
@@ -129,7 +128,7 @@
 			<div class="section-headline"><span>Eat More Pretzels</span>
 				<a class="gnarly-button" target="_blank" rel="noopener noreferrer" href="https://app.yiftee.com/gifts/egift_and_gift_cards/gnarly-knots-pretzel-company">Buy a Gift Card Today!</a>
 			</div>
-			<div class="photo-grid">
+			<div class="carousel photo-grid">
 				<div class="grid-photo">
 				</div>
 				<div class="grid-photo">
@@ -312,6 +311,9 @@
 				</div>
 			</div>
 		</section>
+		<?php 
+			get_template_part('template-parts/carousel');
+		?>
 		<section class="daily-designated-pretzels">
 			<div class="container">
 				<div class="section-header">
@@ -411,7 +413,8 @@
 								</div>
 							</div>
 							<div class="menu-name">
-							The Italian Beef and Cheese Stuffed 
+								<div>The Italian Beef and Cheese Stuffed</div>
+								<div>lol</div>
 							</div>
 							<div class="menu-desc">
 								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
@@ -535,6 +538,9 @@
 				</div>
 			</div>
 		</section>
+		<?php
+			get_template_part('template-parts/carousel');
+		?>
 	</main><!-- #main -->
 
 
