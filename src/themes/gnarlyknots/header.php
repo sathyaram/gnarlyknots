@@ -10,7 +10,7 @@
 	<meta property="og:title" content="Gnarly Knots Pretzel Company" />
 	<meta property="og:url" content="https://gnarlyknots.com" />
 	<meta property="og:type" content="restaurant" />
-	<meta property="og:image" content="/images/og_sathyaram.png" />
+	<meta property="og:image" content="/wp-content/themes/gnarlyknots/images/og-image.png" />
 	<meta property="og:description" content="Gourmet Pretzel Company" />
 	<meta content="#ECD67E" name="theme-color">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
