@@ -150,37 +150,37 @@
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/salted-pretzel.jpg" alt="salted"></div>
 							<div class="menu-name">Salted</div>
-							<div class="menu-desc">Our delicious house favorite.</div>
+							<div class="menu-desc"> Classic Bavarian style topped with salt.</div>
 							<div class="menu-price">3</div>
 						</div>
 						<div class="card">
-							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/cheese-pretzel.jpg" alt="salted"></div>
+							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/cheese-asiago.jpg" alt="salted"></div>
 							<div class="menu-name">Cheese Topped</div>
-							<div class="menu-desc">Our classic topped with aged cheese.</div>
+							<div class="menu-desc">Our classic with Monterey jack cheese baked on top.</div>
 							<div class="menu-price">3.50</div>
 						</div>
 						<div class="card">
-							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/cheese-asiago.jpg" alt="salted"></div>
+							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/cheese-pretzel.jpg" alt="salted"></div>
 							<div class="menu-name">Garlic Asiago</div>
-							<div class="menu-desc">It's delicious.</div>
+							<div class="menu-desc">Our classic with asiago cheese and roasted garlic butter baked on top.</div>
 							<div class="menu-price">4</div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/cinnamon-pretzel.jpg" alt="salted"></div>
 							<div class="menu-name">Cinnamon Sugar</div>
-							<div class="menu-desc">It's delicious.</div>
+							<div class="menu-desc">Our classic topped with sweet butter and sprinkled with cinnamon sugar.</div>
 							<div class="menu-price">4</div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/pretzeldog.jpg" alt="salted"></div>
 							<div class="menu-name">Pretzel Dog</div>
-							<div class="menu-desc">It's delicious.</div>
+							<div class="menu-desc">A Hebrew National jumbo hot dog wrapped up in pretzel.</div>
 							<div class="menu-price">5.50</div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/three-cheese.jpg" alt="salted"></div>
 							<div class="menu-name">Three Cheese Stuffed</div>
-							<div class="menu-desc">It's delicious.</div>
+							<div class="menu-desc">Pretzel jam packed with cheddar, Monterey jack & provolone cheese.</div>
 							<div class="menu-price">7</div>
 						</div>
 					</div>
@@ -190,7 +190,7 @@
 		<section class="daily-soups">
 			<div class="container">
 				<div class="section-header">
-					<h3>Daily Soups</h3>
+					<h3>Daily Homemade Soups</h3>
 					<p>Our delicious mouth-watering soups that go hand in hand with your favorite pretzel. Quarts start at $10 or $8 if you buy it frozen. <br>$3.25 for a cup ($2 with a pretzel). <br>$4.25 for a bowl ($3 with a pretzel). </p>
 				</div>
 				<div class="section-content">
@@ -208,7 +208,7 @@
 								French Onion
 							</div>
 							<div class="menu-desc">
-								Creamy blends of goodness.
+							Our take on the classic but vegetarian and topped with a large soft pretzel chip and sprinkled with asiago cheese.
 							</div>
 						</div>
 						<div class="card">
@@ -224,7 +224,7 @@
 								Black Bean
 							</div>
 							<div class="menu-desc">
-								Creamy blends of goodness.
+							This vegetarian soup is hearty and packed with bold southwestern flavor and delivers the perfect amount of kick. It is also topped with a lime cream drizzle.
 							</div>
 						</div>
 						<div class="card">
@@ -240,7 +240,7 @@
 								Broccoli & Cheese
 							</div>
 							<div class="menu-desc">
-								Creamy blends of goodness.
+							The ultimate comfort puree soup that is creamy, cheesy and full veggie flavor.
 							</div>
 						</div>
 						<div class="card">
@@ -256,7 +256,7 @@
 								Cheddar Ale
 							</div>
 							<div class="menu-desc">
-								Creamy blends of goodness.
+							This beer-cheese soup is an absolute favorite with the masses! It is the cheesiest soup in all the land and then we top it with bacon! Enough said.
 							</div>
 						</div>
 						<div class="card">
@@ -272,7 +272,7 @@
 								Beef Barley
 							</div>
 							<div class="menu-desc">
-								Creamy blends of goodness.
+							Rich and hearty with tender chunks of beef, whole grain barley, fresh veggies in a perfectly seasoned broth.
 							</div>
 						</div>
 						<div class="card">
@@ -288,7 +288,7 @@
 								Chicken Poblano
 							</div>
 							<div class="menu-desc">
-								Creamy blends of goodness.
+							This creamy delight is teaming with chicken, red bell peppers, corn, black beans, and roasted poblano peppers that add the perfect amount of spice you’re looking for.
 							</div>
 						</div>
 						<div class="card">
@@ -304,7 +304,7 @@
 								Tomato Basil
 							</div>
 							<div class="menu-desc">
-								Creamy blends of goodness.
+							We serve this every day because it deserves to be! Try it with the Triple Cheese Stuffed Pretzel. It’s the “grilled cheese and tomato soup” combo you’ve been searching for your entire life! 
 							</div>
 						</div>
 					</div>
@@ -448,6 +448,10 @@
 						<div class="card">
 							<div class="menu-name">Herb Butter</div>
 							<div class="menu-desc">It's delicious.</div>
+						</div>
+						<div class="card">
+							<div class="menu-name">Jalapeno Bacon Cream Cheese</div>
+							<div class="menu-desc">Tangy and delicious.</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Cinnamon Butter</div>
