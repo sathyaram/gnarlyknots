@@ -117,7 +117,7 @@
 			<div class="container-small">
 				<div class="about-text">
 					<h3>We gave the <span>Pretzel</span> some upgrades</h3>
-					<p>Gnarly Knots Pretzel Company is a little pretzel palace in the Western suburbs of Illinous. We turned the idea of what a Pretzel can be upside down. Our award-winning pretzels put all your favorite dinners, lunches, breakfasts and even desserts INSIDE the pretzel! In the mood for Italian Beef… we got it. Looking for a Salami & Provolone… No problem! How about Bacon, Tater tots and Cheese… heck yeah! Chocolate chip cookie dough or Oreo Cheesecake? You bet your sweet bippy! No worries, we also bake the best authentically German-style salted pretzels - stop in today for the best pretzels you will ever eat!
+					<p>Gnarly Knots Pretzel Company is a little pretzel palace in the Western suburbs of Illinois. We turned the idea of what a Pretzel can be upside down. Our award-winning pretzels put all your favorite dinners, lunches, breakfasts and even desserts INSIDE the pretzel! In the mood for Italian Beef… we got it. Looking for a Salami & Provolone… No problem! How about Bacon, Tater tots and Cheese… heck yeah! Chocolate chip cookie dough or Oreo Cheesecake? You bet your sweet bippy! No worries, we also bake the best authentically German-style salted pretzels - stop in today for the best pretzels you will ever eat!
 					</p>
 				</div>
 				<div class="about-image">
@@ -128,7 +128,7 @@
 			<div class="section-headline"><span>Eat More Pretzels</span>
 				<a class="gnarly-button" target="_blank" rel="noopener noreferrer" href="https://app.yiftee.com/gifts/egift_and_gift_cards/gnarly-knots-pretzel-company">Buy a Gift Card Today!</a>
 			</div>
-			<div class="carousel photo-grid">
+			<div class="photo-grid">
 				<div class="grid-photo">
 				</div>
 				<div class="grid-photo">
@@ -311,9 +311,9 @@
 				</div>
 			</div>
 		</section>
-		<?php 
+		<!-- <?php 
 			get_template_part('template-parts/carousel');
-		?>
+		?> -->
 		<section class="daily-designated-pretzels">
 			<div class="container">
 				<div class="section-header">
@@ -538,9 +538,9 @@
 				</div>
 			</div>
 		</section>
-		<?php
+		<!-- <?php
 			get_template_part('template-parts/carousel');
-		?>
+		?> -->
 	</main><!-- #main -->
 
 

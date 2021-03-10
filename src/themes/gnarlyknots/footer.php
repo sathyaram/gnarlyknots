@@ -20,7 +20,7 @@
 		★★★★★
 		</div>
     <div class="testimonial-title">Thrillist</div>
-    <a class="gnarly-button" target="_blank" href="/">
+    <a rel="noopener noreferrer" class="gnarly-button" target="_blank" href="https://www.thrillist.com/eat/nation/gnarly-knots-pretzel-company-stuffed-birthday-cake">
      Watch the Video
     </a>
   </div>
@@ -29,7 +29,7 @@
 		★★★★★
 		</div>
     <div class="testimonial-title">Travel Channel</div>
-    <a class="gnarly-button" target="_blank" href="/">
+    <a rel="noopener noreferrer" class="gnarly-button" target="_blank" href="/">
       Watch the Video
     </a>
   </div>
@@ -38,7 +38,7 @@
 		★★★★★
 		</div>
     <div class="testimonial-title">Chicago's Best</div>
-    <a class="gnarly-button" target="_blank" href="/">
+    <a class="gnarly-button" rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/watch?v=km354XvvDIU">
       Watch the Video
     </a>
   </div>
@@ -47,7 +47,7 @@
 		★★★★★
 		</div>
     <div class="testimonial-title">You and Me This Morning</div>
-    <a class="gnarly-button" target="_blank" href="/">
+    <a rel="noopener noreferrer" class="gnarly-button" target="_blank" href="https://www.youtube.com/watch?v=2zD4q8puKV8">
       Watch the Video
     </a>
   </div>

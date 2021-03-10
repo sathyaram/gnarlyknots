@@ -6,6 +6,7 @@ header {
   width: 100%;
   z-index: 3;
   padding: 0.75rem 30px;
+  transition: background 300ms ease;
 
   @media screen and (max-width: $tablet) {
     flex-direction: column;
@@ -13,8 +14,19 @@ header {
   }
 }
 
-.scrolling header {
-  background-color: rgba($gold, 0.4);
+.scrolling {
+  header {
+    background-color: rgba($gold, 0.8);
+  }
+  .main-menu {
+    a {
+      color: black;
+
+      &:hover {
+        color: $rich-brown;
+      }
+    }
+  }
 }
 
 .main-menu {
@@ -34,7 +46,7 @@ header {
   li:nth-child(2) {
     a {
       padding-left: 1rem;
-      
+
       @media screen and (min-width: $tablet) {
         padding-left: 0;
       }
@@ -47,6 +59,7 @@ header {
     font-weight: 200;
     color: white;
     font-size: 18px;
+    transition: color 300ms ease;
 
     &:hover {
       color: $gold;
@@ -59,11 +72,11 @@ header {
   text-transform: uppercase;
   text-align: center;
   line-height: 90%;
-  
+
   @media screen and (max-width: $tablet) {
     display: none;
   }
-  
+
   a {
     color: #fffae5;
     position: relative;
@@ -73,12 +86,12 @@ header {
       color: white;
 
       &::before {
-      transform: translateX(-50%) scale(1.4);
+        transform: translateX(-50%) scale(1.4);
       }
     }
 
     &::before {
-      content:url('../gnarlyknots/images/orange-pret.svg');
+      content: url("../gnarlyknots/images/orange-pret.svg");
       height: auto;
       position: absolute;
       top: -3px;
