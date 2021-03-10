@@ -480,11 +480,12 @@ body {
       width: 29%;
 
       @media screen and (max-width: $ipad) {
-        width: 33.333%;
+        width: 45%;
       }
 
-      @media screen and (max-width: $ipad) {
-        width: 45%;
+
+      @media screen and (max-width: $surface) {
+        width: 100%;
       }
 
       &:last-child {
