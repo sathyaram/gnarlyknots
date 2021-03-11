@@ -79,6 +79,15 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
+// define( 'SMTP_USER', 'youremail@example.com' );
+// define( 'SMTP_PASS', 'yourpassword' );
+// define( 'SMTP_HOST', 'smtp.mail.yahoo.com' );
+// define( 'SMTP_FROM', 'gnarlyknots@rocketmail.com' );
+// define( 'SMTP_NAME', 'Gnarly Knots' );
+// define( 'SMTP_PORT', '465' );
+// define( 'SMTP_SECURE', 'tls' );
+// define( 'SMTP_AUTH', true );
+
 // If we're behind a proxy server and using HTTPS, we need to alert WordPress of that fact
 // see also http://codex.wordpress.org/Administration_Over_SSL#Using_a_Reverse_Proxy
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
