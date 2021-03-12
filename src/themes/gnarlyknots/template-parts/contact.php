@@ -23,15 +23,21 @@ Template Name: Contact
                     <ul class="contactform">
                         <li>
                             <label for="contactName">Name:</label>
-                            <input type="text" name="contactName" id="contactName" class="required requiredField" />
+                            <input type="text" name="contactName" id="contactName" class="required requiredField"/>
+                        </li>
+                        <li>
+                            <input type="text" name="_honey" style="display:none"/>
+                        </li>
+                        <li>
+                            <input type="hidden" name="_captcha" value="false"/>
                         </li>
                         <li>
                             <label for="email">Email:</label>
-                            <input type="text" name="email" id="email" class="required requiredField email" />
+                            <input type="text" name="email" id="email" class="required requiredField email"/>
                         </li>
                         <li>
                             <label for="subject">Subject:</label>
-                            <input type="text" name="subject" id="subject" class="required requiredField subject" />
+                            <input type="text" name="subject" id="subject" class="required requiredField subject"/>
                         </li>
                         <li><label for="commentsText">Message:</label>
                             <textarea name="comments" id="commentsText" rows="20" cols="30" class="required requiredField"></textarea>
