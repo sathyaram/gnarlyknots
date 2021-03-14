@@ -101,9 +101,9 @@
 					</svg>
 				</div>
 				<div class="hero-info">
-					<div class="location"><a target="_blank" href="https://goo.gl/maps/CUEvSncSbXHm5Fdt6">27W570 High Lake Rd,Winfield, Illinois</a></div>
+					<div class="location"><a target="_blank" href="https://goo.gl/maps/CUEvSncSbXHm5Fdt6"><?php the_field('location')?></a></div>
 					<div class="phone">
-						<a href="tel:6304730439">(630) 473-0439</a>
+						<a href="tel:<?php the_field('telephone')?>"><?php the_field('telephone')?></a>
 					</div>
 					<div class="hours">
 						<span>M-F - <?php the_field('mon_thru_fri') ?></span>
@@ -149,39 +149,39 @@
 					<div class="cards">
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/salted-pretzel.jpg" alt="salted"></div>
-							<div class="menu-name">Salted</div>
-							<div class="menu-desc"> Classic Bavarian style topped with salt.</div>
-							<div class="menu-price">3</div>
+							<div class="menu-name"><?php the_field('daily_pretzel_one')?></div>
+							<div class="menu-desc"><?php the_field('daily_pretzel_one_description')?></div>
+							<div class="menu-price"><?php the_field('daily_pretzel_one_price')?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/cheese-asiago.jpg" alt="salted"></div>
-							<div class="menu-name">Cheese Topped</div>
-							<div class="menu-desc">Our classic with Monterey jack cheese baked on top.</div>
-							<div class="menu-price">3.50</div>
+							<div class="menu-name"><?php the_field('daily_pretzel_two')?></div>
+							<div class="menu-desc"><?php the_field('daily_pretzel_two_description')?></div>
+							<div class="menu-price"><?php the_field('daily_pretzel_two_price')?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/cheese-pretzel.jpg" alt="salted"></div>
-							<div class="menu-name">Garlic Asiago</div>
-							<div class="menu-desc">Our classic with asiago cheese and roasted garlic butter baked on top.</div>
-							<div class="menu-price">4</div>
+							<div class="menu-name"><?php the_field('daily_pretzel_three')?></div>
+							<div class="menu-desc"><?php the_field('daily_pretzel_three_description')?></div>
+							<div class="menu-price"><?php the_field('daily_pretzel_three_price')?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/cinnamon-pretzel.jpg" alt="salted"></div>
-							<div class="menu-name">Cinnamon Sugar</div>
-							<div class="menu-desc">Our classic topped with sweet butter and sprinkled with cinnamon sugar.</div>
-							<div class="menu-price">4</div>
+							<div class="menu-name"><?php the_field('daily_pretzel_four')?></div>
+							<div class="menu-desc"><?php the_field('daily_pretzel_four_description')?></div>
+							<div class="menu-price"><?php the_field('daily_pretzel_four_price')?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/pretzeldog.jpg" alt="salted"></div>
-							<div class="menu-name">Pretzel Dog</div>
-							<div class="menu-desc">A Hebrew National jumbo hot dog wrapped up in pretzel.</div>
-							<div class="menu-price">5.50</div>
+							<div class="menu-name"><?php the_field('daily_pretzel_five')?></div>
+							<div class="menu-desc"><?php the_field('daily_pretzel_five_description')?></div>
+							<div class="menu-price"><?php the_field('daily_pretzel_five_price')?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/three-cheese.jpg" alt="salted"></div>
-							<div class="menu-name">Three Cheese Stuffed</div>
-							<div class="menu-desc">Pretzel jam packed with cheddar, Monterey jack & provolone cheese.</div>
-							<div class="menu-price">7</div>
+							<div class="menu-name"><?php the_field('daily_pretzel_six')?></div>
+							<div class="menu-desc"><?php the_field('daily_pretzel_six_description')?></div>
+							<div class="menu-price"><?php the_field('daily_pretzel_six_price')?></div>
 						</div>
 					</div>
 				</div>
@@ -201,14 +201,14 @@
 									Monday
 								</div>
 								<div class="menu-price">
-									3.25
+									<?php the_field('monday_soup_price')?>
 								</div>
 							</div>
 							<div class="menu-name">
-								French Onion
+								<?php the_field('monday_soup_name')?>
 							</div>
 							<div class="menu-desc">
-							Our take on the classic but vegetarian and topped with a large soft pretzel chip and sprinkled with asiago cheese.
+								<?php the_field('monday_soup_description')?>
 							</div>
 						</div>
 						<div class="card">
@@ -217,14 +217,14 @@
 									Tuesday
 								</div>
 								<div class="menu-price">
-									3.25
+									<?php the_field('tuesday_soup_price')?>
 								</div>
 							</div>
 							<div class="menu-name">
-								Black Bean
+								<?php the_field('tuesday_soup_name')?>
 							</div>
 							<div class="menu-desc">
-							This vegetarian soup is hearty and packed with bold southwestern flavor and delivers the perfect amount of kick. It is also topped with a lime cream drizzle.
+								<?php the_field('tuesday_soup_description')?>
 							</div>
 						</div>
 						<div class="card">
@@ -233,14 +233,14 @@
 									Wednesday
 								</div>
 								<div class="menu-price">
-									3.25
+									<?php the_field('wednesday_soup_price')?>
 								</div>
 							</div>
 							<div class="menu-name">
-								Broccoli & Cheese
+								<?php the_field('wednesday_soup_name')?>
 							</div>
 							<div class="menu-desc">
-							The ultimate comfort puree soup that is creamy, cheesy and full veggie flavor.
+								<?php the_field('wednesday_soup_description')?>
 							</div>
 						</div>
 						<div class="card">
@@ -249,14 +249,14 @@
 									Thursday
 								</div>
 								<div class="menu-price">
-									3.25
+									<?php the_field('thursday_soup_price')?>
 								</div>
 							</div>
 							<div class="menu-name">
-								Cheddar Ale
+								<?php the_field('thursday_soup_name')?>
 							</div>
 							<div class="menu-desc">
-							This beer-cheese soup is an absolute favorite with the masses! It is the cheesiest soup in all the land and then we top it with bacon! Enough said.
+								<?php the_field('thursday_soup_description')?>
 							</div>
 						</div>
 						<div class="card">
@@ -265,14 +265,14 @@
 									Friday
 								</div>
 								<div class="menu-price">
-									3.25
+									<?php the_field('friday_soup_price')?>
 								</div>
 							</div>
 							<div class="menu-name">
-								Beef Barley
+								<?php the_field('friday_soup_name')?>
 							</div>
 							<div class="menu-desc">
-							Rich and hearty with tender chunks of beef, whole grain barley, fresh veggies in a perfectly seasoned broth.
+								<?php the_field('friday_soup_description')?>
 							</div>
 						</div>
 						<div class="card">
@@ -281,14 +281,14 @@
 									Saturday
 								</div>
 								<div class="menu-price">
-									3.25
+									<?php the_field('saturday_soup_price')?>
 								</div>
 							</div>
 							<div class="menu-name">
-								Chicken Poblano
+								<?php the_field('saturday_soup_name')?>
 							</div>
 							<div class="menu-desc">
-							This creamy delight is teaming with chicken, red bell peppers, corn, black beans, and roasted poblano peppers that add the perfect amount of spice you’re looking for.
+								<?php the_field('saturday_soup_description')?>
 							</div>
 						</div>
 						<div class="card">
@@ -297,14 +297,14 @@
 									Everyday
 								</div>
 								<div class="menu-price">
-									3.25
+									<?php the_field('saturday_soup_price')?>
 								</div>
 							</div>
 							<div class="menu-name">
-								Tomato Basil
+								<?php the_field('saturday_soup_name')?>
 							</div>
 							<div class="menu-desc">
-							We serve this every day because it deserves to be! Try it with the Triple Cheese Stuffed Pretzel. It’s the “grilled cheese and tomato soup” combo you’ve been searching for your entire life! 
+								<?php the_field('saturday_soup_description')?>
 							</div>
 						</div>
 					</div>
@@ -328,14 +328,14 @@
 									Monday
 								</div>
 								<div class="menu-price">
-									8
+									<?php the_field('monday_price'); ?>
 								</div>
 							</div>
 							<div class="menu-name">
-								Pepperoni Pizza Stuffed
+								<?php the_field('monday_special_name'); ?>
 							</div>
 							<div class="menu-desc">
-								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
+								<?php the_field('monday_special_description'); ?>
 							</div>
 						</div>
 						<div class="card">
@@ -344,14 +344,14 @@
 									Tuesday
 								</div>
 								<div class="menu-price">
-									9
+									<?php the_field('tuesday_price'); ?>
 								</div>
 							</div>
 							<div class="menu-name">
-								Steak Taco and Cheese Stuffed
+								<?php the_field('tuesday_special_name'); ?>
 							</div>
 							<div class="menu-desc">
-							Seasoned Flank Steak and Colby Jack Cheese stuffed inside our wonderful salty bread and baked until we say! Served with a side of Sour Cream.
+								<?php the_field('tuesday_special_description'); ?>
 							</div>
 						</div>
 						<div class="card">
@@ -361,14 +361,14 @@
 									Wednesday
 								</div>
 								<div class="menu-price">
-									9
+									<?php the_field('wednesday_price'); ?>
 								</div>
 							</div>
 							<div class="menu-name">
-								The Reuben Stuffed
+								<?php the_field('wednesday_special_name'); ?>
 							</div>
 							<div class="menu-desc">
-							An old deli standby turned Pretzel!!  Corned Beef, Sauerkraut and Swiss Cheese stuffed inside a pristine and perfect pretzel!
+								<?php the_field('wednesday_special_description'); ?>
 							</div>
 						</div>
 						<div class="card">
@@ -377,14 +377,14 @@
 									Thursday
 								</div>
 								<div class="menu-price">
-									9
+									<?php the_field('thursday_price'); ?>
 								</div>
 							</div>
 							<div class="menu-name">
-								Italian Beef Stuffed
+								<?php the_field('thursday_special_name'); ?>
 							</div>
 							<div class="menu-desc">
-							Italian Beef stuffed inside a pretzel then baked until golden and delicious!
+								<?php the_field('thursday_special_description'); ?>
 							</div>
 						</div>
 						<div class="card">
@@ -393,14 +393,14 @@
 									Friday
 								</div>
 								<div class="menu-price">
-									9
+									<?php the_field('friday_price'); ?>
 								</div>
 							</div>
 							<div class="menu-name">
-								Buffalo Chicken Mac & Cheese Stuffed
+								<?php the_field('friday_special_name'); ?>
 							</div>
 							<div class="menu-desc">
-							Buffalo Chicken and Macaroni and double cheese meet together inside one of our divine pretzels and make magic! The flavor will haunt your dreams!
+								<?php the_field('friday_special_description'); ?>
 							</div>
 						</div>
 						<div class="card">
@@ -409,15 +409,14 @@
 									Saturday
 								</div>
 								<div class="menu-price">
-									9
+									<?php the_field('saturday_price'); ?>
 								</div>
 							</div>
 							<div class="menu-name">
-								<div>The Italian Beef and Cheese Stuffed</div>
-								<div>lol</div>
+								<?php the_field('saturday_special_name'); ?>
 							</div>
 							<div class="menu-desc">
-								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
+								<?php the_field('saturday_special_description'); ?>
 							</div>
 						</div>
 					</div>
@@ -483,39 +482,39 @@
 					<div class="cards">
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/TBG-261.jpg" alt="salted"></div>
-							<div class="menu-name">Pretzel Bites</div>
-							<div class="menu-desc">Salted, Cheese-topped, Garlic Asiago or Cinnamon Sugar (up to two flavors per box if you like!) 75-90 (1oz) pretzel bites per box.</div>
-							<div class="menu-price">18</div>
+							<div class="menu-name"><?php the_field("preorder_special_one"); ?></div>
+							<div class="menu-desc"><?php the_field("preorder_special_one_description"); ?></div>
+							<div class="menu-price"><?php the_field('preorder_special_one_price'); ?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/TBG-198.jpg" alt="salted"></div>
-							<div class="menu-name">Mini Pretzels</div>
-							<div class="menu-desc">Available in our core flavors: Salted, Cheese-topped, Garlic Asiago or Cinnamon Sugar.</div>
-							<div class="menu-price">1.50</div>
+							<div class="menu-name"><?php the_field("preorder_special_two"); ?></div>
+							<div class="menu-desc"><?php the_field("preorder_special_two_description"); ?></div>
+							<div class="menu-price"><?php the_field('preorder_special_two_price'); ?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/TBG-308.jpg" alt="salted"></div>
-							<div class="menu-name">Mini Giant Pretzels</div>
-							<div class="menu-desc">Salted, Cheese-topped, Garlic Asiago or Cinnamon Sugar - comes with your choice of one sauce. One Pound of Pretzel goodness. </div>
-							<div class="menu-price">5</div>
+							<div class="menu-name"><?php the_field("preorder_special_three"); ?></div>
+							<div class="menu-desc"><?php the_field("preorder_special_three_description"); ?></div>
+							<div class="menu-price"><?php the_field('preorder_special_three_price'); ?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/TBG-304.jpg" alt="salted"></div>
-							<div class="menu-name">Giant Pretzels</div>
-							<div class="menu-desc">Salted, Cheese-topped, Garlic Asiago or Cinnamon Sugar - comes with your choice of three sauces. Two Pounds of Ultimate Pretzel Goodness.</div>
-							<div class="menu-price">12</div>
+							<div class="menu-name"><?php the_field("preorder_special_four"); ?></div>
+							<div class="menu-desc"><?php the_field("preorder_special_four_description"); ?></div>
+							<div class="menu-price"><?php the_field('preorder_special_four_price'); ?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/cakepretz.jpeg" alt="salted"></div>
-							<div class="menu-name">Giant Birthday Cake Stuffed Pretzel</div>
-							<div class="menu-desc">Inside choice of Chocolate or Vanilla confetti Cake Frosting choice of Chocolate or Vanilla .... also topped with sprinkles!</div>
-							<div class="menu-price">20</div>
+							<div class="menu-name"><?php the_field("preorder_special_five"); ?></div>
+							<div class="menu-desc"><?php the_field("preorder_special_five_description"); ?></div>
+							<div class="menu-price"><?php the_field('preorder_special_five_price'); ?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/TBG-285.jpg" alt="salted"></div>
-							<div class="menu-name">Pretzel Buns</div>
-							<div class="menu-desc">Try our own version of a burger staple! Burger size is topped with Sesame Seeds, Slider size is bald. 4 for $4 (6oz burger size) 8 for $4 (3oz slider size).</div>
-							<div class="menu-price">4-8</div>
+							<div class="menu-name"><?php the_field("preorder_special_six"); ?></div>
+							<div class="menu-desc"><?php the_field("preorder_special_six_description"); ?></div>
+							<div class="menu-price"><?php the_field('preorder_special_six_price'); ?></div>
 						</div>
 					</div>
 				</div>
