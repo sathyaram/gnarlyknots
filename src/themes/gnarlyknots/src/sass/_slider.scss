@@ -2,10 +2,35 @@
   width: 100%;
   height: auto;
   max-width: 220px;
+  margin: 0 auto;
+
+  @media screen and (max-width: $mac) {
+    max-width: 600px;
+  }
+
+  @media screen and (max-width: $tablet) {
+    max-width: 325px;
+  }
+
+  @media screen and (max-width: $blazeit) {
+    max-width: 180px;
+  }
 }
 
 .saturday-slide {
   max-width: 220px;
+
+  @media screen and (max-width: $mac) {
+    max-width: 600px;
+  }
+
+  @media screen and (max-width: $tablet) {
+    max-width: 325px;
+  }
+
+  @media screen and (max-width: $blazeit) {
+    max-width: 180px;
+  }
 }
 
 .slick-prev, .slick-next {

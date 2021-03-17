@@ -431,12 +431,10 @@ body {
   }
   .cards {
     @media screen and (max-width: $mac) {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 2rem;
     }
 
-    @media screen and (max-width: $tablet) {
-      grid-template-columns: repeat(1, 1fr);
-    }
   }
 
   .card {
@@ -478,7 +476,7 @@ body {
         width: 100%;
         animation: rainbow 2.5s linear;
         animation-iteration-count: infinite;
-        z-index: 5;
+        z-index: 1;
       }
       &::after {
         top: auto;
