@@ -13,8 +13,7 @@
                 autoplay: true,
                 autoplaySpeed: 6000,
                 pauseOnHover: true,
-                centerMode: true,
-                centerPadding: '10px'
+                centerMode: true
             });
         }
     }

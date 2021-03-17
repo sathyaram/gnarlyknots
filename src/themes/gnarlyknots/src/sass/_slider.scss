@@ -18,7 +18,8 @@
 }
 
 .saturday-slide {
-  max-width: 220px;
+  max-width: 228px;
+  padding: 0 5px;
 
   @media screen and (max-width: $mac) {
     max-width: 600px;

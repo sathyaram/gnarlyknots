@@ -191,7 +191,7 @@
 			<div class="container">
 				<div class="section-header">
 					<h3>Daily Homemade Soups</h3>
-					<p>Our delicious mouth-watering soups that go hand in hand with your favorite pretzel. Quarts start at $10 or $8 if you buy it frozen. <br>$3.25 for a cup ($2 with a pretzel). <br>$4.25 for a bowl ($3 with a pretzel). </p>
+					<p>Our delicious mouth-watering soups that go hand in hand with your favorite pretzel. $3.25 for a cup ($2 with a pretzel). <br>$4.25 for a bowl ($3 with a pretzel).<br>Quarts start at $10 ($8 frozen). </p>
 				</div>
 				<div class="section-content">
 					<div class="cards">
@@ -200,9 +200,7 @@
 								<div class="menu-day">
 									Monday
 								</div>
-								<div class="menu-price">
-									3.25
-								</div>
+						
 							</div>
 							<div class="menu-name">
 								French Onion
@@ -216,9 +214,7 @@
 								<div class="menu-day">
 									Tuesday
 								</div>
-								<div class="menu-price">
-									3.25
-								</div>
+							
 							</div>
 							<div class="menu-name">
 								Black Bean
@@ -232,9 +228,7 @@
 								<div class="menu-day">
 									Wednesday
 								</div>
-								<div class="menu-price">
-									3.25
-								</div>
+						
 							</div>
 							<div class="menu-name">
 								Broccoli & Cheese
@@ -248,9 +242,7 @@
 								<div class="menu-day">
 									Thursday
 								</div>
-								<div class="menu-price">
-									3.25
-								</div>
+						
 							</div>
 							<div class="menu-name">
 								Cheddar Ale
@@ -264,9 +256,7 @@
 								<div class="menu-day">
 									Friday
 								</div>
-								<div class="menu-price">
-									3.25
-								</div>
+						
 							</div>
 							<div class="menu-name">
 								Beef Barley
@@ -280,9 +270,7 @@
 								<div class="menu-day">
 									Saturday
 								</div>
-								<div class="menu-price">
-									3.25
-								</div>
+							
 							</div>
 							<div class="menu-name">
 								Chicken Poblano
@@ -296,15 +284,13 @@
 								<div class="menu-day">
 									Everyday
 								</div>
-								<div class="menu-price">
-									3.25
-								</div>
+						
 							</div>
 							<div class="menu-name">
 								Tomato Basil
 							</div>
 							<div class="menu-desc">
-								We serve this every day because it deserves to be! Try it with the Triple Cheese Stuffed Pretzel. It’s the “grilled cheese and tomato soup” combo you’ve been searching for your entire life!
+								We serve this every day because it deserves to be! Try it with the Triple Cheese Stuffed Pretzel. The combo you’ve been searching for your entire life!
 							</div>
 						</div>
 					</div>
@@ -344,7 +330,7 @@
 									Tuesday
 								</div>
 								<div class="menu-price">
-									9
+									8
 								</div>
 							</div>
 							<div class="menu-name">
@@ -361,7 +347,7 @@
 									Wednesday
 								</div>
 								<div class="menu-price">
-									9
+									8
 								</div>
 							</div>
 							<div class="menu-name">
@@ -377,7 +363,7 @@
 									Thursday
 								</div>
 								<div class="menu-price">
-									9
+									8
 								</div>
 							</div>
 							<div class="menu-name">
@@ -393,7 +379,7 @@
 									Friday
 								</div>
 								<div class="menu-price">
-									9
+									8
 								</div>
 							</div>
 							<div class="menu-name">
@@ -411,17 +397,17 @@
 											Saturday
 										</div>
 										<div class="menu-price">
-											9
+											8
 										</div>
 									</div>
 									<div class="menu-date">
-										March 20th, 2021
+										March 20th
 									</div>
 									<div class="menu-name">
-										<div>The Italian Beef and Cheese Stuffed</div>
+										<div>Chicken Pesto Stuffed</div>
 									</div>
 									<div class="menu-desc">
-										Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
+									Homemade pesto (nut-free), grilled chicken breast and provolone cheese stuffed inside.
 									</div>
 								</div>
 								<div class="saturday-slide">
@@ -430,17 +416,36 @@
 											Saturday
 										</div>
 										<div class="menu-price">
-											9
+											8
 										</div>
 									</div>
 									<div class="menu-date">
-											March 27th, 2021
+											March 27th
 										</div>
 									<div class="menu-name">
-										<div>The Khan Beef and Cheese Stuffed</div>
+										<div>"The Porker"</div>
 									</div>
 									<div class="menu-desc">
-										Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
+									Slow Roasted Pork and grilled onion stuffed, served with a side of Lime Creme Fraise Oreo Cheesecake Stuffed!
+									</div>
+								</div>
+								<div class="saturday-slide">
+									<div class="card-header">
+										<div class="menu-day">
+											Saturday
+										</div>
+										<div class="menu-price">
+											8
+										</div>
+									</div>
+									<div class="menu-date">
+											April 6th
+										</div>
+									<div class="menu-name">
+										<div>Bacon, Tater Tot and Cheese Stuffed</div>
+									</div>
+									<div class="menu-desc">
+									it's bacon, tater tot and Colby Jack Cheese stuffed, served with a side of spicy Tot Sauce.
 									</div>
 								</div>
 							</div>
@@ -459,39 +464,39 @@
 					<div class="cards">
 						<div class="card">
 							<div class="menu-name">Creamy Mustard</div>
-							<div class="menu-desc">It's delicious.</div>
+							<div class="menu-desc">Mild homemade yellow mustard sauce.</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Apricot Habanero</div>
-							<div class="menu-desc">It's delicious.</div>
+							<div class="menu-desc">Sweet meets spicy.</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Nacho Cheese</div>
-							<div class="menu-desc">It's delicious.</div>
+							<div class="menu-desc">Traditional ballpark style cheese sauce.</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Herb Butter</div>
-							<div class="menu-desc">It's delicious.</div>
+							<div class="menu-desc">Fresh herbs whipped in butter.</div>
 						</div>
 						<div class="card">
-							<div class="menu-name">Jalapeno Bacon Cream Cheese</div>
-							<div class="menu-desc">Tangy and delicious.</div>
+							<div class="menu-name">Jalapeño Bacon Cream Cheese</div>
+							<div class="menu-desc">Oven roasted jalapenos, peppered bacon & cream cheese.</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Cinnamon Butter</div>
-							<div class="menu-desc">It's delicious.</div>
+							<div class="menu-desc">Whipped butter with cinnamon & sugar.</div>
 						</div>
 						<div class="card">
-							<div class="menu-name">Nutella</div>
-							<div class="menu-desc">It's delicious.</div>
+							<div class="menu-name">Nutella®</div>
+							<div class="menu-desc">It's Nutella.</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Cinnamon Cream</div>
-							<div class="menu-desc">It's delicious.</div>
+							<div class="menu-desc">Sweet cream with cinnamon & sugar.</div>
 						</div>
 						<div class="card">
 							<div class="menu-name">Honey Mustard</div>
-							<div class="menu-desc">Tangy and delicious.</div>
+							<div class="menu-desc">A thick sweet Dijon with a sharp finish.</div>
 						</div>
 					</div>
 				</div>
@@ -515,7 +520,7 @@
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/TBG-198.jpg" alt="salted"></div>
 							<div class="menu-name">Mini Pretzels</div>
 							<div class="menu-desc">Available in our core flavors: Salted, Cheese-topped, Garlic Asiago or Cinnamon Sugar.</div>
-							<div class="menu-price">1.50</div>
+							<div class="menu-price">1.50ea</div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/TBG-308.jpg" alt="salted"></div>

@@ -39,7 +39,7 @@
 				<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Gnarly-Knots-Pretzel-Company-266064870082466/">
 					<img src="/wp-content/themes/gnarlyknots/images/facebook-f.svg" alt="facebook">
 				</a>
-				<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/gnarlyknot?lang=en">
+				<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/gnarlyknots?lang=en">
 					<img src="/wp-content/themes/gnarlyknots/images/twitter.svg" alt="twitter">
 				</a>
 				<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gnarlyknots/?hl=en">

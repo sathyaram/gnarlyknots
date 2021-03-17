@@ -20,7 +20,7 @@ body {
     background-image: url("../gnarlyknots/images/gnarly-hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: right;
     width: 100%;
     height: 100%;
 
@@ -466,6 +466,7 @@ body {
     &:last-child {
       // background-color: tomato;
       position: relative;
+      padding: 2rem calc(3rem - 5px);
 
       &::before, &::after {
         content: '';
