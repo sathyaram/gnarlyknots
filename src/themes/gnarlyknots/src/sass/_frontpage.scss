@@ -332,8 +332,18 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      position: relative;
       padding-bottom: 0.75rem;
       border-bottom: 1px solid $light-gold;
+    }
+
+    .menu-date {
+      // position: absolute;
+      background-color: $gold;
+      padding: 0.3rem 0.25rem 0.05rem;
+      // display: block;
+      // top: -1rem;
+      text-align: center;
     }
 
     .menu-name {
@@ -454,6 +464,66 @@ body {
         background-color: $rich-gold;
       }
     }
+
+    &:last-child {
+      // background-color: tomato;
+      position: relative;
+
+      &::before, &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 7px;
+        width: 100%;
+        animation: rainbow 2.5s linear;
+        animation-iteration-count: infinite;
+        z-index: 5;
+      }
+      &::after {
+        top: auto;
+        bottom: 0;
+      }
+    }
+  }
+}
+
+@keyframes rainbow{
+  100%,0%{
+    background-color: rgb(255,0,0);
+  }
+  8%{
+    background-color: rgb(255,127,0);
+  }
+  16%{
+    background-color: rgb(255,255,0);
+  }
+  25%{
+    background-color: rgb(127,255,0);
+  }
+  33%{
+    background-color: rgb(0,255,0);
+  }
+  41%{
+    background-color: rgb(0,255,127);
+  }
+  50%{
+    background-color: rgb(0,255,255);
+  }
+  58%{
+    background-color: rgb(0,127,255);
+  }
+  66%{
+    background-color: rgb(0,0,255);
+  }
+  75%{
+    background-color: rgb(127,0,255);
+  }
+  83%{
+    background-color: rgb(255,0,255);
+  }
+  91%{
+    background-color: rgb(255,0,127);
   }
 }
 

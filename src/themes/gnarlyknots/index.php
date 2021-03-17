@@ -208,7 +208,7 @@
 								French Onion
 							</div>
 							<div class="menu-desc">
-							Our take on the classic but vegetarian and topped with a large soft pretzel chip and sprinkled with asiago cheese.
+								Our take on the classic but vegetarian and topped with a large soft pretzel chip and sprinkled with asiago cheese.
 							</div>
 						</div>
 						<div class="card">
@@ -224,7 +224,7 @@
 								Black Bean
 							</div>
 							<div class="menu-desc">
-							This vegetarian soup is hearty and packed with bold southwestern flavor and delivers the perfect amount of kick. It is also topped with a lime cream drizzle.
+								This vegetarian soup is hearty and packed with bold southwestern flavor and delivers the perfect amount of kick. It is also topped with a lime cream drizzle.
 							</div>
 						</div>
 						<div class="card">
@@ -240,7 +240,7 @@
 								Broccoli & Cheese
 							</div>
 							<div class="menu-desc">
-							The ultimate comfort puree soup that is creamy, cheesy and full veggie flavor.
+								The ultimate comfort puree soup that is creamy, cheesy and full veggie flavor.
 							</div>
 						</div>
 						<div class="card">
@@ -256,7 +256,7 @@
 								Cheddar Ale
 							</div>
 							<div class="menu-desc">
-							This beer-cheese soup is an absolute favorite with the masses! It is the cheesiest soup in all the land and then we top it with bacon! Enough said.
+								This beer-cheese soup is an absolute favorite with the masses! It is the cheesiest soup in all the land and then we top it with bacon! Enough said.
 							</div>
 						</div>
 						<div class="card">
@@ -272,7 +272,7 @@
 								Beef Barley
 							</div>
 							<div class="menu-desc">
-							Rich and hearty with tender chunks of beef, whole grain barley, fresh veggies in a perfectly seasoned broth.
+								Rich and hearty with tender chunks of beef, whole grain barley, fresh veggies in a perfectly seasoned broth.
 							</div>
 						</div>
 						<div class="card">
@@ -288,7 +288,7 @@
 								Chicken Poblano
 							</div>
 							<div class="menu-desc">
-							This creamy delight is teaming with chicken, red bell peppers, corn, black beans, and roasted poblano peppers that add the perfect amount of spice you’re looking for.
+								This creamy delight is teaming with chicken, red bell peppers, corn, black beans, and roasted poblano peppers that add the perfect amount of spice you’re looking for.
 							</div>
 						</div>
 						<div class="card">
@@ -304,16 +304,16 @@
 								Tomato Basil
 							</div>
 							<div class="menu-desc">
-							We serve this every day because it deserves to be! Try it with the Triple Cheese Stuffed Pretzel. It’s the “grilled cheese and tomato soup” combo you’ve been searching for your entire life! 
+								We serve this every day because it deserves to be! Try it with the Triple Cheese Stuffed Pretzel. It’s the “grilled cheese and tomato soup” combo you’ve been searching for your entire life!
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- <?php 
-			get_template_part('template-parts/carousel');
-		?> -->
+		<!-- <?php
+					get_template_part('template-parts/carousel');
+					?> -->
 		<section class="daily-designated-pretzels">
 			<div class="container">
 				<div class="section-header">
@@ -351,7 +351,7 @@
 								Steak Taco and Cheese Stuffed
 							</div>
 							<div class="menu-desc">
-							Seasoned Flank Steak and Colby Jack Cheese stuffed inside our wonderful salty bread and baked until we say! Served with a side of Sour Cream.
+								Seasoned Flank Steak and Colby Jack Cheese stuffed inside our wonderful salty bread and baked until we say! Served with a side of Sour Cream.
 							</div>
 						</div>
 						<div class="card">
@@ -368,7 +368,7 @@
 								The Reuben Stuffed
 							</div>
 							<div class="menu-desc">
-							An old deli standby turned Pretzel!!  Corned Beef, Sauerkraut and Swiss Cheese stuffed inside a pristine and perfect pretzel!
+								An old deli standby turned Pretzel!! Corned Beef, Sauerkraut and Swiss Cheese stuffed inside a pristine and perfect pretzel!
 							</div>
 						</div>
 						<div class="card">
@@ -384,7 +384,7 @@
 								Italian Beef Stuffed
 							</div>
 							<div class="menu-desc">
-							Italian Beef stuffed inside a pretzel then baked until golden and delicious!
+								Italian Beef stuffed inside a pretzel then baked until golden and delicious!
 							</div>
 						</div>
 						<div class="card">
@@ -400,29 +400,53 @@
 								Buffalo Chicken Mac & Cheese Stuffed
 							</div>
 							<div class="menu-desc">
-							Buffalo Chicken and Macaroni and double cheese meet together inside one of our divine pretzels and make magic! The flavor will haunt your dreams!
+								Buffalo Chicken and Macaroni and double cheese meet together inside one of our divine pretzels and make magic! The flavor will haunt your dreams!
 							</div>
 						</div>
 						<div class="card">
-							<div class="card-header">
-								<div class="menu-day">
-									Saturday
+							<div class="saturday-slider carousel">
+								<div class="saturday-slide">
+									<div class="card-header">
+										<div class="menu-day">
+											Saturday
+										</div>
+										<div class="menu-price">
+											9
+										</div>
+									</div>
+									<div class="menu-date">
+										March 20th, 2021
+									</div>
+									<div class="menu-name">
+										<div>The Italian Beef and Cheese Stuffed</div>
+									</div>
+									<div class="menu-desc">
+										Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
+									</div>
 								</div>
-								<div class="menu-price">
-									9
+								<div class="saturday-slide">
+									<div class="card-header">
+										<div class="menu-day">
+											Saturday
+										</div>
+										<div class="menu-price">
+											9
+										</div>
+									</div>
+									<div class="menu-date">
+											March 27th, 2021
+										</div>
+									<div class="menu-name">
+										<div>The Khan Beef and Cheese Stuffed</div>
+									</div>
+									<div class="menu-desc">
+										Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
+									</div>
 								</div>
-							</div>
-							<div class="menu-name">
-								<div>The Italian Beef and Cheese Stuffed</div>
-								<div>lol</div>
-							</div>
-							<div class="menu-desc">
-								Pepperoni and Provolone Cheese stuffed inside a delicious homemade pretzel, topped with Asiago, and Italian Seasoning, served with homemade Marinara sauce.
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 		</section>
 
 		<section class="sauces">
@@ -543,8 +567,8 @@
 			</div>
 		</section>
 		<!-- <?php
-			get_template_part('template-parts/carousel');
-		?> -->
+					get_template_part('template-parts/carousel');
+					?> -->
 	</main><!-- #main -->
 
 

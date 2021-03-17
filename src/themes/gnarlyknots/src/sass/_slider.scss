@@ -1,0 +1,26 @@
+.saturday-slider {
+  width: 100%;
+  height: auto;
+  max-width: 220px;
+}
+
+.saturday-slide {
+  max-width: 220px;
+}
+
+.slick-prev, .slick-next {
+  background-color: $gold !important;
+  z-index: 999;
+}
+
+.slick-prev {
+  left: -65px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.slick-next {
+  right: -65px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
