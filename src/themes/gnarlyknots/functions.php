@@ -164,12 +164,12 @@ function my_site_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_site_scripts' );
 
-function add_local_fonts() {
-	wp_enqueue_style( 'local_web_fonts',
-	get_stylesheet_directory_uri() . '/font.css');
-}
+// function add_local_fonts() {
+// 	wp_enqueue_style( 'local_web_fonts',
+// 	get_stylesheet_directory_uri() . '/font.css');
+// }
 
-add_action( 'enqueue_block_assets', 'add_local_fonts' );
+// add_action( 'enqueue_block_assets', 'add_local_fonts' );
 
 /**
  * Implement the Custom Header feature.
