@@ -13,7 +13,8 @@
                 autoplay: true,
                 autoplaySpeed: 6000,
                 pauseOnHover: true,
-                centerMode: true
+                centerMode: true,
+                adaptiveHeight: true
             });
         }
     }
