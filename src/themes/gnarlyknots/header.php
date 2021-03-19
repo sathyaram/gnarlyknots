@@ -16,6 +16,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="description" content="Gnarly Knots" />
 	<link rel="canonical" href="https://gnarlyknots.com" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8CMFVN4MD3"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-8CMFVN4MD3');
+	</script>
 </head>
 
 <body <?php body_class(); ?>>
