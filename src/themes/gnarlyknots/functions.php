@@ -164,6 +164,18 @@ function my_site_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_site_scripts' );
 
+function rdsn_acf_repeater_collapse() {
+	?>
+	<style id="rdsn-acf-repeater-collapse">.acf-repeater .acf-table {display:none;}</style>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('.acf-repeater .acf-row').addClass('-collapsed');
+			$('#rdsn-acf-repeater-collapse').detach();
+		});
+	</script>
+	<?php
+	}
+add_action('acf/input/admin_head', 'rdsn_acf_repeater_collapse');
 // function add_local_fonts() {
 // 	wp_enqueue_style( 'local_web_fonts',
 // 	get_stylesheet_directory_uri() . '/font.css');
