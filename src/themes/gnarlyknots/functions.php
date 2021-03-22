@@ -24,7 +24,7 @@ function crb_create_faq() {
                 ->set_layout( 'tabbed-horizontal' )
                 ->add_fields( array(
                     Field::make( 'text', 'question', 'Question' ),
-                    Field::make( 'text', 'answer', 'Answer' ),
+                    Field::make( 'textarea', 'answer', 'Answer' ),
                 ) )
         ) );
 }
