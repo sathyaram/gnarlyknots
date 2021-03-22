@@ -117,7 +117,7 @@
 			<div class="container-small">
 				<div class="about-text">
 					<h3>We gave the <span>Pretzel</span> some upgrades</h3>
-					<p><?php the_field('about_description') ?></p>
+					<p><?php the_field('home_page_about_description') ?></p>
 					
 				</div>
 				<div class="about-image">

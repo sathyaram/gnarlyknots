@@ -12,6 +12,36 @@ if ( ! defined( '_S_VERSION' ) ) {
 	define( '_S_VERSION', '1.0.0' );
 }
 
+use Carbon_Fields\Field;
+use Carbon_Fields\Container;
+
+add_action( 'carbon_fields_register_fields', 'crb_create_faq' );
+function crb_create_faq() {
+    Container::make( 'post_meta', __( 'FAQs', 'crb' ) )
+		->where( 'post_id', '=', '10' )
+        ->add_fields( array(
+            Field::make( 'complex', 'crb_faq', 'FAQ' )
+                ->set_layout( 'tabbed-horizontal' )
+                ->add_fields( array(
+                    Field::make( 'text', 'question', 'Question' ),
+                    Field::make( 'text', 'answer', 'Answer' ),
+                ) )
+        ) );
+}
+
+add_action( 'carbon_fields_register_fields', 'crb_create_rules' );
+function crb_create_rules() {
+    Container::make( 'post_meta', __( 'Rules', 'crb' ) )
+        ->where( 'post_id', '=', '10' ) // only show our new fields on pages
+        ->add_fields( array(
+            Field::make( 'complex', 'crb_rules', 'Rules' )
+                ->set_layout( 'tabbed-horizontal' )
+                ->add_fields( array(
+                    Field::make( 'text', 'rule', 'Rule' ),
+                ) )
+        ) );
+}
+
 if ( ! function_exists( 'my_site_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -164,18 +194,6 @@ function my_site_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_site_scripts' );
 
-function rdsn_acf_repeater_collapse() {
-	?>
-	<style id="rdsn-acf-repeater-collapse">.acf-repeater .acf-table {display:none;}</style>
-	<script type="text/javascript">
-		jQuery(function($) {
-			$('.acf-repeater .acf-row').addClass('-collapsed');
-			$('#rdsn-acf-repeater-collapse').detach();
-		});
-	</script>
-	<?php
-	}
-add_action('acf/input/admin_head', 'rdsn_acf_repeater_collapse');
 // function add_local_fonts() {
 // 	wp_enqueue_style( 'local_web_fonts',
 // 	get_stylesheet_directory_uri() . '/font.css');
@@ -209,3 +227,14 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+?>
+<?php 
+add_action('acf/input/admin_head', 'my_acf_input_admin_head');
+function my_acf_input_admin_head() { ?>
+  <script type="text/javascript">
+    jQuery(function($){
+	  $('.acf-postbox').addClass('closed');
+	  $('.carbon-box').addClass('closed');
+    });
+  </script>
+<?php }

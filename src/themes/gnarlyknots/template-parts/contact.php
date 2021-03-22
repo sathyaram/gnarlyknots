@@ -8,14 +8,12 @@ Template Name: Contact
         <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
             <h1 class="entry-title"><?php the_title(); ?></h1>
             <div class="contact-desc">
-                We run our shop on a first come, first served basis. However, if you have a large order, are planning an event, or need catering services, drop us a line and we'll hook you up. <br><br>
-                Please know we do not take same day orders and require at least one day's advanced notice. Leaving a message on our voicemail does not an order make.... please speak with a human for any pre-orders! <br><br> We can answer questions much faster and more efficiently with a phone call than a message or Facebook comment! <br><br>
-                We do not ship our products. Apologies.
+                <?php the_field('contact_description') ?>
                 <br><br>
-                Map: <a target="_blank" href="https://goo.gl/maps/CUEvSncSbXHm5Fdt6">27W570 High Lake Rd,Winfield, Illinois</a>
+                Map: <a target="_blank" href="https://goo.gl/maps/CUEvSncSbXHm5Fdt6"><?php the_field('location')?></a>
                 <br>
-                <div>Email: <a href="mailto:gnarlyknots@rocketmail.com">gnarlyknots@rocketmail.com</a></div>
-                Call: <a href="tel:6304730439">630-473-0439</a>
+                <div>Email: <a href="mailto:<?php the_field('email')?>"><?php the_field('email')?></a></div>
+                Call: <a href="tel:<?php the_field('telephone')?>"><?php the_field('telephone')?></a>
             </div>
             <hr>
             <div class="entry-content">
