@@ -6,6 +6,9 @@ services:
     depends_on:
       - mysql-wordpress
     volumes:
+      - ./src/config:/var/www/html
+      - ./src/wp-admin:/var/www/html/wp-admin
+      - ./src/wp-includes:/var/www/html/wp-includes 
       - ./src/themes/:/var/www/html/wp-content/themes
       - ./src/plugins/:/var/www/html/wp-content/plugins
       - ./src/uploads/:/var/www/html/wp-content/uploads
