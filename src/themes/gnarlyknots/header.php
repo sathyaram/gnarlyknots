@@ -12,9 +12,18 @@
 	<meta property="og:type" content="restaurant" />
 	<meta property="og:image" content="/wp-content/themes/gnarlyknots/images/og-image.png" />
 	<meta property="og:description" content="Gourmet Pretzel Company" />
-	<meta content="#ECD67E" name="theme-color">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="theme-color" content="#ECD67E" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="Gnarly Knots" />
 	<link rel="canonical" href="https://gnarlyknots.com" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8CMFVN4MD3"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-8CMFVN4MD3');
+	</script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -30,11 +39,11 @@
 				<li><a href="./about">About</a></li>
 				<li><a href="./contact">Contact</a></li>
 			</ul>
-			<h1 class="logo">
+			<div class="logo">
 				<a href="/">
 					<h1>Gnarly Knots</h1>
 				</a>
-			</h1>
+			</div>
 			<nav class="social-media" role="navigation">
 				<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Gnarly-Knots-Pretzel-Company-266064870082466/">
 					<img src="/wp-content/themes/gnarlyknots/images/facebook-f.svg" alt="facebook">

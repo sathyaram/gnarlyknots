@@ -28,8 +28,8 @@
 	<div class="stars">
 		★★★★★
 		</div>
-    <div class="testimonial-title">Travel Channel</div>
-    <a rel="noopener noreferrer" class="gnarly-button" target="_blank" href="/">
+    <div class="testimonial-title">ABC 7</div>
+    <a rel="noopener noreferrer" class="gnarly-button" target="_blank" href="https://abc7chicago.com/food/chew-on-this-gnarly-knots/4310855/">
       Watch the Video
     </a>
   </div>
