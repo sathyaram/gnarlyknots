@@ -198,7 +198,7 @@ body {
 
   &::after {
     content: "";
-    background-image: url(/wp-content/themes/gnarlyknots/images/orange-pret.svg);
+    background-image: url('../gnarlyknots/images/orange-pret.svg');
     background-repeat: repeat space 80px;
     background-size: 220px 220px;
     position: absolute;
@@ -387,7 +387,7 @@ body {
 
   &::after {
     content: "";
-    background-image: url(/wp-content/themes/gnarlyknots/images/orange-pret.svg);
+    background-image: url('..gnarlyknots/images/orange-pret.svg');
     background-repeat: repeat space 80px;
     background-size: 220px 220px;
     position: absolute;
@@ -419,7 +419,7 @@ body {
 
   &::after {
     content: "";
-    background-image: url(/wp-content/themes/gnarlyknots/images/orange-pret.svg);
+    background-image: url('../gnarlyknots/images/orange-pret.svg');
     background-repeat: repeat space 80px;
     background-size: 220px 220px;
     position: absolute;
@@ -616,7 +616,7 @@ body {
 
   &::after {
     content: "";
-    background-image: url(/wp-content/themes/gnarlyknots/images/orange-pret.svg);
+    background-image: url('../gnarlyknots/images/orange-pret.svg');
     background-repeat: repeat space;
     background-size: 220px 220px;
     position: absolute;
