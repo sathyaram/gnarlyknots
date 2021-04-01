@@ -7,11 +7,13 @@ header {
   z-index: 999;
   padding: 0.75rem 30px;
   transition: background 300ms ease;
+  // opacity: 0;
+  // animation: fadeIn 1s ease 3s forwards;
 
   @media screen and (max-width: $tablet) {
     flex-direction: column;
     justify-content: center;
-    padding: 0 30px 0.75rem;
+    padding: 0.75rem 30px 0.5rem;
   }
 }
 
@@ -28,6 +30,12 @@ header {
       }
     }
   }
+
+  .sub-menu {
+    &::before {
+      color: $white !important;
+    }
+  }
 }
 
 .main-menu {
@@ -38,19 +46,76 @@ header {
     width: auto;
   }
 
-  li:first-child {
-    @media screen and (min-width: $tablet) {
-      display: none;
+  > ul {
+    li:first-child {
+      @media screen and (min-width: $tablet) {
+        display: none;
+      }
+    }
+
+    li:nth-child(2) {
+      a {
+        padding-left: 1rem;
+
+        @media screen and (min-width: $tablet) {
+          padding-left: 0;
+        }
+      }
     }
   }
+  .menu-item-menu {
+    position: relative;
+    padding-right: 20px;
+  }
 
-  li:nth-child(2) {
-    a {
-      padding-left: 1rem;
+  .sub-menu {
+    position: absolute;
+    width: 200px;
+    border-radius: 10px;
+    top: calc(100% - 11px);
+    left: 0;
 
-      @media screen and (min-width: $tablet) {
-        padding-left: 0;
+    &:hover {
+      padding: 1rem 0 0.65rem;
+      background-color: rgba($gold, 0.95);
+      z-index: 5;
+
+      &::before {
+        color: $light-gold;
       }
+      
+      li {
+        visibility: visible;
+        pointer-events: auto;
+      }
+    }
+
+    li {
+      visibility: hidden;
+      pointer-events: none;
+      a {
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: $black;
+
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+
+    &::before {
+      content: "›";
+      // background-color: red;
+      width: 15px;
+      height: 25px;
+      color: $gold;
+      font-size: 34px;
+      position: absolute;
+      top: -21px;
+    left: 72px;
+      transform:rotate(90deg);
     }
   }
 
@@ -110,11 +175,16 @@ header {
   align-items: center;
   justify-content: flex-end;
   width: 33.33%;
+  position: relative;
 
   @media screen and (max-width: $tablet) {
     width: auto;
     margin-bottom: -30px;
-    margin-top: -5px;
+    margin-top: -6px;
+  }
+
+  &:hover {
+    z-index: 4;
   }
 
   a {

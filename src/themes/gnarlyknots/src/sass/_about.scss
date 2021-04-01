@@ -2,14 +2,15 @@
   position: relative;
 
   &::after {
-    content:'';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     opacity: 1;
-    background-image: linear-gradient(rgba($rich-brown, 0.7), rgba($rich-brown, 0.8)), url("../gnarlyknots/images/sprinkling-salt2.jpg");
+    background-image: linear-gradient(rgba($rich-brown, 0.7), rgba($rich-brown, 0.8)),
+      url("../gnarlyknots/images/sprinkling-salt2.jpg");
     background-size: cover;
     background-position: center 70%;
     background-attachment: fixed;
@@ -47,7 +48,7 @@
       color: $rich-gold;
 
       &::after {
-        content:'↗';
+        content: "↗";
         font-size: 12px;
         position: relative;
         margin-left: 4px;
@@ -98,13 +99,13 @@
 .accordion {
   border-radius: 10px;
   border: 1px solid $light-gold;
-  padding: 1.5rem 1.5rem 1.2rem 1.5rem; 
+  padding: 1.5rem 1.5rem 1.2rem 1.5rem;
   margin-bottom: 1rem;
   cursor: pointer;
   position: relative;
 
   &::before {
-    content: '›';
+    content: "›";
     position: absolute;
     top: 50%;
     font-size: 2rem;
@@ -147,32 +148,41 @@
   }
 }
 
-@-moz-document url-prefix() {
-  .logo a::before {
-    top: 18px;
-  }
-}
-
-#Path_169, #Path_170, #Path_171, #Path_207, #Path_208, #Path_186, #Path_187, #Path_188, #Path_189, #Path_190, #Path_191, #Path_192, #Path_193, #Path_194, #Path_195, #Path_196 {
+#Path_169,
+#Path_170,
+#Path_171,
+#Path_207,
+#Path_208,
+#Path_186,
+#Path_187,
+#Path_188,
+#Path_189,
+#Path_190,
+#Path_191,
+#Path_192,
+#Path_193,
+#Path_194,
+#Path_195,
+#Path_196 {
   stroke: #fff;
   stroke-width: 1;
   stroke-miterlimit: 1;
   fill: transparent;
   transition: fill 1s ease;
-	animation: dash 3s ease forwards, fill 1s ease 3s forwards;
-  stroke-dasharray:452.57159423828125;
-	stroke-dashoffset:452.57159423828125;
+  animation: dash 3s ease forwards, fill 1s ease 3s forwards;
+  stroke-dasharray: 452.57159423828125;
+  stroke-dashoffset: 452.57159423828125;
 }
 
 #Path_170 {
-  stroke-dasharray:451.52557373046875;
-  stroke-dashoffset:451.52557373046875;
+  stroke-dasharray: 451.52557373046875;
+  stroke-dashoffset: 451.52557373046875;
 }
 
 #Path_171 {
-  stroke-dasharray:9660.2216796875;
-  stroke-dashoffset:9660.2216796875;
-	animation: dash 10s ease forwards, fill 1s ease 2s forwards;
+  stroke-dasharray: 9660.2216796875;
+  stroke-dashoffset: 9660.2216796875;
+  animation: dash 10s ease forwards, fill 1s ease 2s forwards;
 }
 
 #Path_172 {
@@ -180,30 +190,28 @@
   animation: fadeIn 2s ease 2s forwards;
 }
 
-#Path_207, #Path_208 {
-  stroke-dasharray:431.8814392089844;
-  stroke-dashoffset:431.8814392089844;
+#Path_207,
+#Path_208 {
+  stroke-dasharray: 431.8814392089844;
+  stroke-dashoffset: 431.8814392089844;
 }
 
-#Path_186, #Path_187, #Path_188, #Path_189, #Path_190, #Path_191, #Path_192, #Path_193, #Path_194, #Path_195, #Path_196 {
-  stroke-dasharray:131;
-  stroke-dashoffset:131;
+#Path_186,
+#Path_187,
+#Path_188,
+#Path_189,
+#Path_190,
+#Path_191,
+#Path_192,
+#Path_193,
+#Path_194,
+#Path_195,
+#Path_196 {
+  stroke-dasharray: 131;
+  stroke-dashoffset: 131;
 }
 
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes fill {
-  to {
-    fill: white;
-  }
+tspan:nth-child(1) {
+  opacity: 0;
+  animation: fadeIn 3s ease 1.5s forwards;
 }

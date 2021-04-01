@@ -71,7 +71,7 @@ $desktop: 1280px;
   transition: background 300ms ease, color 300ms ease;
 
   @media screen and (max-width: $tablet) {
-    padding: 0.85rem 1rem 0.45rem;
+    padding: 0.75rem 1rem 0.45rem;
     font-size: 12px;
   }
 
@@ -87,5 +87,30 @@ $desktop: 1280px;
   &:hover {
     background-color: rgba($gold, 1);
     color: black;
+  }
+}
+
+
+@-moz-document url-prefix() {
+  .logo a::before {
+    top: 18px;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  to {
+    fill: white;
   }
 }

@@ -38,7 +38,14 @@
 		<header role="banner">
 			<ul class="main-menu">
 				<li><a href="/">Home</a></li>
-				<li><a href="/#menu">Menu</a>
+				<li class="menu-item-menu"><a href="/#menu">Menu</a>
+					<ul class="sub-menu">
+						<li><a href="/#menu">Everyday Pretzels</a></li>
+						<li><a href="/#daily-soups">Daily Soups</a></li>
+						<li><a href="/#daily-designated-pretzels">Special Pretzels</a></li>
+						<li><a href="/#sauces">Sauces</a></li>
+						<li><a href="/#preorder-pretzels">Pre-order Pretzels</a></li>
+					</ul>
 				</li>
 				<li><a href="./about">About</a></li>
 				<li><a href="./contact">Contact</a></li>

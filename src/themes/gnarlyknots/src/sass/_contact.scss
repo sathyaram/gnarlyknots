@@ -2,7 +2,7 @@
   position: relative;
 
   &::after {
-    content:'';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -31,7 +31,7 @@
       color: $brown;
 
       &::after {
-        content:'↗';
+        content: "↗";
         font-size: 12px;
         position: relative;
         margin-left: 4px;
@@ -58,7 +58,7 @@
     border-radius: 10px;
   }
 
-  input[type=text]{
+  input[type="text"] {
     padding: 1rem;
     font-size: 1rem;
     width: 100%;
@@ -72,8 +72,8 @@
     padding: 1rem;
   }
 
-  input[type=submit] {
-    font-family: 'Helserif';
+  input[type="submit"] {
+    font-family: "Helserif";
     cursor: pointer;
     margin-bottom: 0;
   }
@@ -85,7 +85,6 @@
     color: #c52f2f;
     border-radius: 10px;
     background-color: rgba($light-gold, 0.75);
-
   }
 
   hr {

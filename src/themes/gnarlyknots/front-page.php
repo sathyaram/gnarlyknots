@@ -101,9 +101,9 @@
 					</svg>
 				</div>
 				<div class="hero-info">
-					<div class="location"><a target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/CUEvSncSbXHm5Fdt6"><?php the_field('location')?></a></div>
+					<div class="location"><a target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/CUEvSncSbXHm5Fdt6"><?php the_field('location') ?></a></div>
 					<div class="phone">
-						<a href="tel:<?php the_field('telephone')?>"><?php the_field('telephone')?></a>
+						<a href="tel:<?php the_field('telephone') ?>"><?php the_field('telephone') ?></a>
 					</div>
 					<div class="hours">
 						<span>M-F - <?php the_field('mon_thru_fri') ?></span>
@@ -118,7 +118,7 @@
 				<div class="about-text">
 					<h3>We gave the <span>Pretzel</span> some upgrades</h3>
 					<p><?php the_field('home_page_about_description') ?></p>
-					
+
 				</div>
 				<div class="about-image">
 				</div>
@@ -142,56 +142,56 @@
 		<section id="menu" class="everyday-pretzels">
 			<div class="container">
 				<div class="section-header">
-					<h3><?php the_field('everyday_pretzels_header')?></h3>
-					<p><?php the_field('everyday_pretzels_description')?></p>
+					<h3><?php the_field('everyday_pretzels_header') ?></h3>
+					<p><?php the_field('everyday_pretzels_description') ?></p>
 				</div>
 				<div class="section-content">
 					<div class="cards">
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/salted-pretzel.jpg" alt="salted"></div>
-							<div class="menu-name"><?php the_field('daily_pretzel_one')?></div>
-							<div class="menu-desc"><?php the_field('daily_pretzel_one_description')?></div>
-							<div class="menu-price"><?php the_field('daily_pretzel_one_price')?></div>
+							<div class="menu-name"><?php the_field('daily_pretzel_one') ?></div>
+							<div class="menu-desc"><?php the_field('daily_pretzel_one_description') ?></div>
+							<div class="menu-price"><?php the_field('daily_pretzel_one_price') ?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/cheese-asiago.jpg" alt="salted"></div>
-							<div class="menu-name"><?php the_field('daily_pretzel_two')?></div>
-							<div class="menu-desc"><?php the_field('daily_pretzel_two_description')?></div>
-							<div class="menu-price"><?php the_field('daily_pretzel_two_price')?></div>
+							<div class="menu-name"><?php the_field('daily_pretzel_two') ?></div>
+							<div class="menu-desc"><?php the_field('daily_pretzel_two_description') ?></div>
+							<div class="menu-price"><?php the_field('daily_pretzel_two_price') ?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/cheese-pretzel.jpg" alt="salted"></div>
-							<div class="menu-name"><?php the_field('daily_pretzel_three')?></div>
-							<div class="menu-desc"><?php the_field('daily_pretzel_three_description')?></div>
-							<div class="menu-price"><?php the_field('daily_pretzel_three_price')?></div>
+							<div class="menu-name"><?php the_field('daily_pretzel_three') ?></div>
+							<div class="menu-desc"><?php the_field('daily_pretzel_three_description') ?></div>
+							<div class="menu-price"><?php the_field('daily_pretzel_three_price') ?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/cinnamon-pretzel.jpg" alt="salted"></div>
-							<div class="menu-name"><?php the_field('daily_pretzel_four')?></div>
-							<div class="menu-desc"><?php the_field('daily_pretzel_four_description')?></div>
-							<div class="menu-price"><?php the_field('daily_pretzel_four_price')?></div>
+							<div class="menu-name"><?php the_field('daily_pretzel_four') ?></div>
+							<div class="menu-desc"><?php the_field('daily_pretzel_four_description') ?></div>
+							<div class="menu-price"><?php the_field('daily_pretzel_four_price') ?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/pretzeldog.jpg" alt="salted"></div>
-							<div class="menu-name"><?php the_field('daily_pretzel_five')?></div>
-							<div class="menu-desc"><?php the_field('daily_pretzel_five_description')?></div>
-							<div class="menu-price"><?php the_field('daily_pretzel_five_price')?></div>
+							<div class="menu-name"><?php the_field('daily_pretzel_five') ?></div>
+							<div class="menu-desc"><?php the_field('daily_pretzel_five_description') ?></div>
+							<div class="menu-price"><?php the_field('daily_pretzel_five_price') ?></div>
 						</div>
 						<div class="card">
 							<div class="menu-image"><img src="/wp-content/themes/gnarlyknots/images/three-cheese.jpg" alt="salted"></div>
-							<div class="menu-name"><?php the_field('daily_pretzel_six')?></div>
-							<div class="menu-desc"><?php the_field('daily_pretzel_six_description')?></div>
-							<div class="menu-price"><?php the_field('daily_pretzel_six_price')?></div>
+							<div class="menu-name"><?php the_field('daily_pretzel_six') ?></div>
+							<div class="menu-desc"><?php the_field('daily_pretzel_six_description') ?></div>
+							<div class="menu-price"><?php the_field('daily_pretzel_six_price') ?></div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="daily-soups">
+		<section id="daily-soups" class="daily-soups">
 			<div class="container">
 				<div class="section-header">
-					<h3><?php the_field('soups_header')?></h3>
-					<p><?php the_field('general_soups')?></p>
+					<h3><?php the_field('soups_header') ?></h3>
+					<p><?php the_field('general_soups') ?></p>
 				</div>
 				<div class="section-content">
 					<div class="cards">
@@ -202,10 +202,10 @@
 								</div>
 							</div>
 							<div class="menu-name">
-								<?php the_field('monday_soup_name')?>
+								<?php the_field('monday_soup_name') ?>
 							</div>
 							<div class="menu-desc">
-								<?php the_field('monday_soup_description')?>
+								<?php the_field('monday_soup_description') ?>
 							</div>
 						</div>
 						<div class="card">
@@ -215,10 +215,10 @@
 								</div>
 							</div>
 							<div class="menu-name">
-								<?php the_field('tuesday_soup_name')?>
+								<?php the_field('tuesday_soup_name') ?>
 							</div>
 							<div class="menu-desc">
-								<?php the_field('tuesday_soup_description')?>
+								<?php the_field('tuesday_soup_description') ?>
 							</div>
 						</div>
 						<div class="card">
@@ -228,10 +228,10 @@
 								</div>
 							</div>
 							<div class="menu-name">
-								<?php the_field('wednesday_soup_name')?>
+								<?php the_field('wednesday_soup_name') ?>
 							</div>
 							<div class="menu-desc">
-								<?php the_field('wednesday_soup_description')?>
+								<?php the_field('wednesday_soup_description') ?>
 							</div>
 						</div>
 						<div class="card">
@@ -241,10 +241,10 @@
 								</div>
 							</div>
 							<div class="menu-name">
-								<?php the_field('thursday_soup_name')?>
+								<?php the_field('thursday_soup_name') ?>
 							</div>
 							<div class="menu-desc">
-								<?php the_field('thursday_soup_description')?>
+								<?php the_field('thursday_soup_description') ?>
 							</div>
 						</div>
 						<div class="card">
@@ -254,10 +254,10 @@
 								</div>
 							</div>
 							<div class="menu-name">
-								<?php the_field('friday_soup_name')?>
+								<?php the_field('friday_soup_name') ?>
 							</div>
 							<div class="menu-desc">
-								<?php the_field('friday_soup_description')?>
+								<?php the_field('friday_soup_description') ?>
 							</div>
 						</div>
 						<div class="card">
@@ -267,10 +267,10 @@
 								</div>
 							</div>
 							<div class="menu-name">
-								<?php the_field('saturday_soup_name')?>
+								<?php the_field('saturday_soup_name') ?>
 							</div>
 							<div class="menu-desc">
-								<?php the_field('saturday_soup_description')?>
+								<?php the_field('saturday_soup_description') ?>
 							</div>
 						</div>
 						<div class="card">
@@ -280,24 +280,24 @@
 								</div>
 							</div>
 							<div class="menu-name">
-								<?php the_field('everyday_soup_name')?>
+								<?php the_field('everyday_soup_name') ?>
 							</div>
 							<div class="menu-desc">
-								<?php the_field('everyday_soup_description')?>
+								<?php the_field('everyday_soup_description') ?>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- <?php 
-			get_template_part('template-parts/carousel');
-		?> -->
-		<section class="daily-designated-pretzels">
+		<!-- <?php
+					get_template_part('template-parts/carousel');
+					?> -->
+		<section id="daily-designated-pretzels" class="daily-designated-pretzels">
 			<div class="container">
 				<div class="section-header">
-					<h3><?php the_field('specials_header')?></h3>
-					<p><?php the_field('specials_description')?></p>
+					<h3><?php the_field('specials_header') ?></h3>
+					<p><?php the_field('specials_description') ?></p>
 				</div>
 				<div class="section-content">
 					<div class="cards">
@@ -400,7 +400,7 @@
 										<div><?php the_field('saturday_special'); ?> </div>
 									</div>
 									<div class="menu-desc">
-									<?php the_field('saturday_special_description'); ?>
+										<?php the_field('saturday_special_description'); ?>
 									</div>
 								</div>
 								<div class="saturday-slide">
@@ -414,12 +414,12 @@
 									</div>
 									<div class="menu-date">
 										<?php the_field('saturday_special_two_date'); ?>
-										</div>
+									</div>
 									<div class="menu-name">
 										<div><?php the_field('saturday_special_two'); ?></div>
 									</div>
 									<div class="menu-desc">
-									<?php the_field('saturday_special_description_two'); ?>
+										<?php the_field('saturday_special_description_two'); ?>
 									</div>
 								</div>
 								<div class="saturday-slide">
@@ -432,13 +432,13 @@
 										</div>
 									</div>
 									<div class="menu-date">
-											<?php the_field('saturday_special_three_date'); ?>
-										</div>
+										<?php the_field('saturday_special_three_date'); ?>
+									</div>
 									<div class="menu-name">
-										<div><?php the_field('saturday_special_three'); ?> </div>	
+										<div><?php the_field('saturday_special_three'); ?> </div>
 									</div>
 									<div class="menu-desc">
-									<?php the_field('saturday_special_description_three'); ?>
+										<?php the_field('saturday_special_description_three'); ?>
 									</div>
 								</div>
 								<div class="saturday-slide">
@@ -451,13 +451,13 @@
 										</div>
 									</div>
 									<div class="menu-date">
-											<?php the_field('saturday_special_four_date'); ?>
-										</div>
+										<?php the_field('saturday_special_four_date'); ?>
+									</div>
 									<div class="menu-name">
-										<div> <?php the_field('saturday_special_four'); ?> </div>	
+										<div> <?php the_field('saturday_special_four'); ?> </div>
 									</div>
 									<div class="menu-desc">
-									<?php the_field('saturday_special_description_four'); ?>
+										<?php the_field('saturday_special_description_four'); ?>
 									</div>
 								</div>
 							</div>
@@ -467,7 +467,7 @@
 			</div>
 		</section>
 
-		<section class="sauces">
+		<section id="sauces" class="sauces">
 			<div class="container">
 				<div class="section-header">
 					<h3><?php the_field('sauces_header'); ?></h3>
@@ -515,7 +515,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="preorder-specials">
+		<section id="preorder-pretzels" class="preorder-specials">
 			<div class="container">
 				<div class="section-header">
 					<h3><?php the_field("preorder_specials_header"); ?></h3>

@@ -10,7 +10,7 @@ footer {
   position: relative;
 
   &::after {
-    content:'';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -51,10 +51,10 @@ footer {
     text-align: center;
     padding: 5rem 1rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-      url("../gnarlyknots/images/TBG-295.jpg");
+      url("../gnarlyknots/images/TBG-120.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: 80% center;
     color: white;
     display: flex;
     flex-direction: column;
@@ -81,15 +81,15 @@ footer {
 
     &:nth-child(2) {
       background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-        url("../gnarlyknots/images/TBG-290.jpg");
+        url("../gnarlyknots/images/TBG-118.jpeg");
     }
     &:nth-child(3) {
       background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-        url("../gnarlyknots/images/TBG-277.jpg");
+        url("../gnarlyknots/images/TBG-106.jpeg");
     }
     &:nth-child(4) {
       background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-        url("../gnarlyknots/images/TBG-272.jpg");
+        url("../gnarlyknots/images/TBG-097.jpeg");
     }
 
     .testimonial-title {
