@@ -148,7 +148,7 @@ body {
     }
 
     &.phone {
-      margin-bottom: -2px;
+      margin-bottom: -6px;
       a {
         color: $black;
       }
@@ -547,6 +547,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    @media screen and (max-width: $surface) {
+      grid-gap: 0;
+    }
 
     .card {
       width: 29%;
