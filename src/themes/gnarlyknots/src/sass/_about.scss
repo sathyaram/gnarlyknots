@@ -83,14 +83,130 @@
   .question {
     color: $gold;
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    // margin-bottom: 1rem;
+    padding-right: 2rem;
   }
 
   .answer {
     color: white;
     font-size: 1.25rem;
     font-weight: 200;
-    margin-bottom: 2rem;
+    padding-right: 1rem;
   }
 }
 
+.accordion {
+  border-radius: 10px;
+  border: 1px solid $light-gold;
+  padding: 1.5rem 1.5rem 1.2rem 1.5rem; 
+  margin-bottom: 1rem;
+  cursor: pointer;
+  position: relative;
+
+  &::before {
+    content: '›';
+    position: absolute;
+    top: 50%;
+    font-size: 2rem;
+    transform: translateY(-50%) rotate(90deg);
+    right: 20px;
+    color: $light-gold;
+    z-index: 2;
+    transition: all 300ms ease;
+  }
+
+  &:hover {
+    .question {
+      color: $light-gold;
+    }
+  }
+
+  * {
+    transition: all 300ms ease;
+  }
+  .answer {
+    overflow: hidden;
+    max-height: 0;
+  }
+  &.open {
+
+    &::before {
+      transform: translateY(-50%) rotate(-90deg);
+      right: 15px;
+    }
+
+    .question {
+      color: $rich-gold;
+    }
+    .answer {
+      padding-top: 0.5rem;
+      overflow: auto;
+      max-height: 400px;
+    }
+  }
+}
+
+@-moz-document url-prefix() {
+  .logo a::before {
+    top: 12px;
+  }
+}
+
+path {
+  
+}
+
+#Path_169, #Path_170, #Path_171, #Path_207, #Path_208, #Path_186, #Path_187, #Path_188, #Path_189, #Path_190, #Path_191, #Path_192, #Path_193, #Path_194, #Path_195, #Path_196 {
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-miterlimit: 1;
+  fill: transparent;
+  transition: fill 1s ease;
+	animation: dash 3s ease forwards, fill 1s ease 3s forwards;
+  stroke-dasharray:452.57159423828125;
+	stroke-dashoffset:452.57159423828125;
+}
+
+#Path_170 {
+  stroke-dasharray:451.52557373046875;
+  stroke-dashoffset:451.52557373046875;
+}
+
+#Path_171 {
+  stroke-dasharray:9660.2216796875;
+  stroke-dashoffset:9660.2216796875;
+	animation: dash 10s ease forwards, fill 1s ease 2s forwards;
+}
+
+#Path_172 {
+  opacity: 0;
+  animation: fadeIn 2s ease 2s forwards;
+}
+
+#Path_207, #Path_208 {
+  stroke-dasharray:431.8814392089844;
+  stroke-dashoffset:431.8814392089844;
+}
+
+#Path_186, #Path_187, #Path_188, #Path_189, #Path_190, #Path_191, #Path_192, #Path_193, #Path_194, #Path_195, #Path_196 {
+  stroke-dasharray:131;
+  stroke-dashoffset:131;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  to {
+    fill: white;
+  }
+}

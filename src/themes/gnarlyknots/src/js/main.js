@@ -19,4 +19,9 @@
         }
     }
     new SlickCarousel();
+
+    $(".accordion").click(function(e) {
+        $(this).toggleClass('open');
+        e.preventDefault();
+    });
 })(jQuery)

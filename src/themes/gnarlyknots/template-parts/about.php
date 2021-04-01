@@ -41,12 +41,12 @@ Template Name: About
       <?php
         $questions = carbon_get_the_post_meta( 'crb_faq' );
         foreach ( $questions as $question ) {
-            echo '<div class = "question">';
+            echo '<div class="accordion"><div class = "question">';
             echo ( $question['question'] );
             echo '</div>';
             echo '<div class = "answer">';
             echo ( $question['answer'] );
-            echo '</div>';
+            echo '</div></div>';
         }
       ?>
     </div>
