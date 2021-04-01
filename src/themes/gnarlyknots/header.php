@@ -18,11 +18,14 @@
 	<link rel="canonical" href="https://gnarlyknots.com" />
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8CMFVN4MD3"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
 
-	gtag('config', 'G-8CMFVN4MD3');
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-8CMFVN4MD3');
 	</script>
 </head>
 
@@ -35,7 +38,8 @@
 		<header role="banner">
 			<ul class="main-menu">
 				<li><a href="/">Home</a></li>
-				<li><a href="/#menu">Menu</a></li>
+				<li><a href="/#menu">Menu</a>
+				</li>
 				<li><a href="./about">About</a></li>
 				<li><a href="./contact">Contact</a></li>
 			</ul>

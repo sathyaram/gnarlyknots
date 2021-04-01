@@ -81,11 +81,15 @@ body {
     width: 100%;
 
     .location {
-      margin-bottom: 2px;
+      margin-bottom: 1px;
 
       &::before {
         margin-left: -5px;
         margin-right: -2px;
+      }
+
+      a {
+        margin-bottom: -6px;
       }
     }
   }
@@ -467,13 +471,14 @@ body {
       // background-color: tomato;
       position: relative;
       padding: 2rem calc(3rem - 5px);
+      background-color: #fff5da;
 
       &::before, &::after {
         content: '';
         position: absolute;
         top: 0;
         left: 0;
-        height: 7px;
+        height: 5px;
         width: 100%;
         animation: rainbow 2.5s linear;
         animation-iteration-count: infinite;
