@@ -68,6 +68,9 @@
 				<a target="_blank" rel="noopener noreferrer" href="https://www.yelp.com/biz/gnarly-knots-pretzel-co-winfield">
 					<img src="/wp-content/themes/gnarlyknots/images/yelp.svg" alt="yelp">
 				</a>
+				<a target="_blank" rel="noopener noreferrer" href="https://www.tripadvisor.com/Restaurant_Review-g36895-d6407223-Reviews-Gnarly_Knots_Pretzel_Company-Winfield_DuPage_County_Illinois.html">
+					<img src="/wp-content/themes/gnarlyknots/images/tripadvisor.svg" alt="yelp">
+				</a>
 			</nav>
 		</header>
 		<div id="content" class="site-content">
