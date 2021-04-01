@@ -193,6 +193,10 @@ body {
   position: relative;
   z-index: 1;
 
+  .container-smaller {
+    max-width: 750px;
+  }
+
   &::after {
     content:'';
     background-image: url(/wp-content/themes/gnarlyknots/images/orange-pret.svg);
