@@ -64,7 +64,7 @@ body {
 
 .hero-info {
   margin: 2rem auto 0;
-  background-color: rgba($gold, 0.8);
+  background-color: rgba($gold, 0.85);
   width: 100%;
   border-radius: 15px;
   font-weight: 200;
@@ -211,7 +211,7 @@ body {
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 2.25rem;
     margin-bottom: 2rem;
     color: $brown;
     font-weight: 700;
@@ -241,8 +241,8 @@ body {
     }
 
     @media screen and (max-width: $blazeit) {
-      font-size: 16px;
-      line-height: 130%;
+      font-size: 17px;
+      line-height: 150%;
     }
   }
 }

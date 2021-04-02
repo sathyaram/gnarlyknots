@@ -116,7 +116,7 @@
 		<section class="about">
 			<div class="container-smaller">
 				<div class="about-text">
-					<h3>We gave the <span>Pretzel</span> some upgrades</h3>
+					<h3>We gave the <span>Pretzel</span> some upgrades.</h3>
 					<p><?php the_field('home_page_about_description') ?></p>
 
 				</div>
