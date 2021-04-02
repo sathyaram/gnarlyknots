@@ -72,7 +72,7 @@ header {
     position: absolute;
     width: 200px;
     border-radius: 10px;
-    top: calc(100% - 11px);
+    top: calc(100% - 10px);
     left: 0;
 
     &:hover {
@@ -114,7 +114,7 @@ header {
       font-size: 34px;
       position: absolute;
       top: -21px;
-    left: 72px;
+      left: 74px;
       transform:rotate(90deg);
     }
   }

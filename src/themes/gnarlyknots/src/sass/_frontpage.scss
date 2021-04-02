@@ -122,7 +122,7 @@ body {
     }
 
     &.hours {
-      margin-bottom: -5px;
+      margin-bottom: -4px;
       &::before {
         content: url("../gnarlyknots/images/clock-o.svg");
       }
@@ -143,12 +143,12 @@ body {
         margin-right: -4px;
       }
       a {
-        margin-bottom: -6px;
+        margin-bottom: -4px;
       }
     }
 
     &.phone {
-      margin-bottom: -6px;
+      margin-bottom: -3px;
       a {
         color: $black;
       }
